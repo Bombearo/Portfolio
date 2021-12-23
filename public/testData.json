@@ -1,0 +1,208 @@
+[
+  {
+    "description": "An api that contains my online presence",
+    "name": "bombearoAPI",
+    "languages_url": "https://api.github.com/repos/Bombearo/bombearoAPI/languages",
+    "languages": [
+      {
+        "name": "C#",
+        "chars": 9762,
+        "percentage": "100.00%"
+      }
+    ],
+    "fork": false,
+    "html_url": "https://github.com/Bombearo/bombearoAPI",
+    "node_id": "MDEwOlJlcG9zaXRvcnkzODI4NzI4MDc=",
+    "clone_url": "https://github.com/Bombearo/bombearoAPI.git",
+    "ssh_url": "git@github.com:Bombearo/bombearoAPI.git",
+    "git_url": "git://github.com/Bombearo/bombearoAPI.git",
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "created_at": "2021-07-04T14:31:39Z",
+    "pushed_at": "2021-12-10T00:05:37Z",
+    "updated_at": "2021-12-10T00:05:40Z"
+  },
+  {
+    "description": "A Python Tkinter project originally made to be exam coursework. Uses MySQL integration",
+    "name": "Flashcard_App",
+    "languages_url": "https://api.github.com/repos/Bombearo/Flashcard_App/languages",
+    "languages": [
+      {
+        "name": "Python",
+        "chars": 53900,
+        "percentage": "100.00%"
+      }
+    ],
+    "fork": false,
+    "html_url": "https://github.com/Bombearo/Flashcard_App",
+    "node_id": "MDEwOlJlcG9zaXRvcnkzNDg1MTUzMTQ=",
+    "clone_url": "https://github.com/Bombearo/Flashcard_App.git",
+    "ssh_url": "git@github.com:Bombearo/Flashcard_App.git",
+    "git_url": "git://github.com/Bombearo/Flashcard_App.git",
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "created_at": "2021-03-16T22:57:51Z",
+    "pushed_at": "2021-07-20T20:52:56Z",
+    "updated_at": "2021-07-20T20:52:59Z"
+  },
+  {
+    "description": "Grade calculator for UoE Introduction to Linear Algebra.",
+    "name": "ILAGradeCalculator",
+    "languages_url": "https://api.github.com/repos/Bombearo/ILAGradeCalculator/languages",
+    "languages": [
+      {
+        "name": "Python",
+        "chars": 3218,
+        "percentage": "100.00%"
+      }
+    ],
+    "fork": true,
+    "html_url": "https://github.com/Bombearo/ILAGradeCalculator",
+    "node_id": "R_kgDOGbMTbQ",
+    "clone_url": "https://github.com/Bombearo/ILAGradeCalculator.git",
+    "ssh_url": "git@github.com:Bombearo/ILAGradeCalculator.git",
+    "git_url": "git://github.com/Bombearo/ILAGradeCalculator.git",
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "created_at": "2021-11-23T16:04:54Z",
+    "pushed_at": "2021-11-23T21:53:55Z",
+    "updated_at": "2021-11-23T21:53:58Z"
+  },
+  {
+    "description": null,
+    "name": "models",
+    "languages_url": "https://api.github.com/repos/Bombearo/models/languages",
+    "languages": [
+      {
+        "name": "Python",
+        "chars": 8663,
+        "percentage": "100.00%"
+      }
+    ],
+    "fork": true,
+    "html_url": "https://github.com/Bombearo/models",
+    "node_id": "MDEwOlJlcG9zaXRvcnkzODQ0MzE0MDQ=",
+    "clone_url": "https://github.com/Bombearo/models.git",
+    "ssh_url": "git@github.com:Bombearo/models.git",
+    "git_url": "git://github.com/Bombearo/models.git",
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "created_at": "2021-07-09T12:32:19Z",
+    "pushed_at": "2021-07-09T13:58:29Z",
+    "updated_at": "2021-07-09T13:58:31Z"
+  },
+  {
+    "description": "Source code for my portfolio",
+    "name": "Portfolio_Website",
+    "languages_url": "https://api.github.com/repos/Bombearo/Portfolio_Website/languages",
+    "languages": [
+      {
+        "name": "Python",
+        "chars": 15019912,
+        "percentage": "98.07%"
+      },
+      {
+        "name": "JavaScript",
+        "chars": 234837,
+        "percentage": "1.53%"
+      },
+      {
+        "name": "HTML",
+        "chars": 32395,
+        "percentage": "0.21%"
+      },
+      {
+        "name": "CSS",
+        "chars": 14651,
+        "percentage": "0.10%"
+      },
+      {
+        "name": "Mako",
+        "chars": 10615,
+        "percentage": "0.07%"
+      },
+      {
+        "name": "PowerShell",
+        "chars": 1475,
+        "percentage": "0.01%"
+      },
+      {
+        "name": "Batchfile",
+        "chars": 1358,
+        "percentage": "0.01%"
+      }
+    ],
+    "fork": false,
+    "html_url": "https://github.com/Bombearo/Portfolio_Website",
+    "node_id": "MDEwOlJlcG9zaXRvcnkyODgwMTE5NzY=",
+    "clone_url": "https://github.com/Bombearo/Portfolio_Website.git",
+    "ssh_url": "git@github.com:Bombearo/Portfolio_Website.git",
+    "git_url": "git://github.com/Bombearo/Portfolio_Website.git",
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "created_at": "2020-08-16T19:37:37Z",
+    "pushed_at": "2020-09-21T22:46:17Z",
+    "updated_at": "2021-04-26T19:04:35Z"
+  },
+  {
+    "description": "A simple school management system to practice C# with SQL integration",
+    "name": "School-Management-System",
+    "languages_url": "https://api.github.com/repos/Bombearo/School-Management-System/languages",
+    "languages": [
+      {
+        "name": "C#",
+        "chars": 69972,
+        "percentage": "90.57%"
+      },
+      {
+        "name": "TSQL",
+        "chars": 7284,
+        "percentage": "9.43%"
+      }
+    ],
+    "fork": false,
+    "html_url": "https://github.com/Bombearo/School-Management-System",
+    "node_id": "MDEwOlJlcG9zaXRvcnkzNTIzMzA4NjQ=",
+    "clone_url": "https://github.com/Bombearo/School-Management-System.git",
+    "ssh_url": "git@github.com:Bombearo/School-Management-System.git",
+    "git_url": "git://github.com/Bombearo/School-Management-System.git",
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "created_at": "2021-03-28T13:02:42Z",
+    "pushed_at": "2021-04-22T17:08:29Z",
+    "updated_at": "2021-04-26T19:04:29Z"
+  },
+  {
+    "description": "A Vue Application that integrates PokeAPI v2",
+    "name": "VueDex",
+    "languages_url": "https://api.github.com/repos/Bombearo/VueDex/languages",
+    "languages": [
+      {
+        "name": "Vue",
+        "chars": 11609,
+        "percentage": "86.86%"
+      },
+      {
+        "name": "JavaScript",
+        "chars": 1065,
+        "percentage": "7.97%"
+      },
+      {
+        "name": "HTML",
+        "chars": 691,
+        "percentage": "5.17%"
+      }
+    ],
+    "fork": false,
+    "html_url": "https://github.com/Bombearo/VueDex",
+    "node_id": "MDEwOlJlcG9zaXRvcnkzNjM5MDIwMzE=",
+    "clone_url": "https://github.com/Bombearo/VueDex.git",
+    "ssh_url": "git@github.com:Bombearo/VueDex.git",
+    "git_url": "git://github.com/Bombearo/VueDex.git",
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "created_at": "2021-05-03T11:06:43Z",
+    "pushed_at": "2021-06-04T13:34:34Z",
+    "updated_at": "2021-06-04T13:34:36Z"
+  }
+]
