@@ -2,18 +2,18 @@
   <div>
     <section v-if="!alignedRight" class="section">
       <div class="content">
-        <slot />
+        <slot name="content" />
       </div>
       <div class="media">
-        <slot />
+        <slot name="media" />
       </div>
     </section>
     <section v-if="alignedRight" class="section">
       <div class="media">
-        <slot />
+        <slot name="media" />
       </div>
       <div class="content">
-        <slot />
+        <slot name="content" />
       </div>
     </section>
   </div>

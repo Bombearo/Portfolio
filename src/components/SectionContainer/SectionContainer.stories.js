@@ -10,7 +10,7 @@ const Template = (args) => ({
   setup() {
     return { args };
   },
-  template: '<SectionContainer v-bind="args"><div>Hi</div><div> 123</div>  </SectionContainer>',
+  template: '<SectionContainer v-bind="args"><template v-slot:content>Hi</template><template v-slot:media> 123</template></SectionContainer>',
 });
 
 export const Primary = Template.bind({});
