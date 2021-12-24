@@ -45,4 +45,8 @@ export default {
 .content {
   width: 60%;
 }
+
+.media {
+  width: 40%;
+}
 </style>

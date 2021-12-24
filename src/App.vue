@@ -4,6 +4,15 @@
 </template>
 
 <style>
+@font-face {
+  font-family: montserrat;
+  src: url(./assets/fonts/Montserrat-Medium.ttf);
+}
+
+div {
+  font-family: montserrat, monospace;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
