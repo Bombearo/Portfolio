@@ -49,4 +49,17 @@ export default {
 .media {
   width: 40%;
 }
+
+@media screen and (max-width: 700px) {
+  .section {
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .content,
+  .media {
+    width: 100%;
+  }
+}
 </style>
