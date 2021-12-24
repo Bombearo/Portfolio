@@ -3,7 +3,7 @@ node_modules
 /dist
 
 
-/public/testData.json
+/src/assets/temp
 
 # local env files
 .env.local

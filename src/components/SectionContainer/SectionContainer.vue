@@ -34,5 +34,15 @@ export default {
 <style scoped>
 .section {
   display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.section > div {
+  padding: 1em;
+}
+
+.content {
+  width: 60%;
 }
 </style>
