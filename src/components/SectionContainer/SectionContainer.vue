@@ -32,6 +32,10 @@ export default {
 </script>
 
 <style scoped>
+div {
+  width: 100vw;
+}
+
 .section {
   display: flex;
   width: 100%;

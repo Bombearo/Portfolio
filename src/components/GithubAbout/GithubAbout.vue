@@ -68,10 +68,11 @@ export default {
 
 div {
   font-family: montserrat, monospace;
+  font-size: 0.9rem;
 }
 
 h4 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 a {
@@ -91,7 +92,7 @@ a:hover {
 .created {
   text-align: right;
   color: grey;
-  font-size: 0.8em;
+  font-size: 0.5rem;
 }
 
 .stats {
