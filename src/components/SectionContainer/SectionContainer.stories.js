@@ -1,5 +1,4 @@
 import SectionContainer from "./SectionContainer.vue";
-import GithubAbout from "../GithubAbout/GithubAbout.vue";
 
 export default {
   title: "Home/SectionContainer",

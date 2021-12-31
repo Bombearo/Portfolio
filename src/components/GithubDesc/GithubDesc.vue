@@ -2,11 +2,16 @@
   <div>
     <SectionContainer :alignedRight="true">
       <template v-slot:content>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim labore
-        eveniet quam repellat cupiditate a illum, doloribus, corrupti
-        consectetur, hic commodi? Pariatur consectetur cumque porro saepe iste
-        cupiditate minima voluptatum.</template
-      >
+        <div class="desc">
+          <h4>Github</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
+            labore eveniet quam repellat cupiditate a illum, doloribus, corrupti
+            consectetur, hic commodi? Pariatur consectetur cumque porro saepe
+            iste cupiditate minima voluptatum.
+          </p>
+        </div>
+      </template>
       <template v-slot:media> <GithubAbout /> </template>
     </SectionContainer>
   </div>
