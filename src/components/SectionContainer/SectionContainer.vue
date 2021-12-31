@@ -44,12 +44,24 @@ export default {
 
 .content {
   display: flex;
-  width: 60%;
+  width: 30%;
   align-items: center;
+  justify-content: space-between;
 }
 
 .media {
-  width: 40%;
+  width: 30%;
+}
+
+@media screen and (max-width: 1400px) {
+  .content {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .content {
+    width: 70%;
+  }
 }
 
 @media screen and (max-width: 700px) {
