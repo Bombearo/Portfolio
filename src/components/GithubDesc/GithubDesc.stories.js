@@ -1,7 +1,7 @@
-import GithubDesc from './GithubDesc';
+import GithubDesc from "./GithubDesc";
 
 export default {
-  title: 'Home/GithubDesc',
+  title: "Home/GithubDesc",
   component: GithubDesc,
 };
 

@@ -1,7 +1,7 @@
-import GithubAbout from './GithubAbout';
+import GithubAbout from "./GithubAbout";
 
 export default {
-  title: 'HomePage/GithubAbout',
+  title: "HomePage/GithubAbout",
   component: GithubAbout,
 };
 
