@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <div class="img-container">
       <img :src="getUser().avatar_url" alt="" />
     </div>
@@ -69,6 +69,7 @@ export default {
 div {
   font-family: montserrat, monospace;
   font-size: 0.9rem;
+  margin: 0.2em;
 }
 
 h4 {
@@ -83,6 +84,18 @@ a {
 
 a:hover {
   color: grey;
+}
+
+.container {
+  background-color: lightgray;
+  border-radius: 2rem;
+  padding: 5rem 1.5rem;
+  box-shadow: gray 0.5em 0.7rem;
+}
+
+.container:hover {
+  transform: scale(1.01);
+  box-shadow: gray 0.6em 0.8rem;
 }
 
 .bio {
