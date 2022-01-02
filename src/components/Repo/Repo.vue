@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="repoContainer">
     <h4>
       <a :href="repoData.html_url" target="_blank">{{ repoData.name }}</a>
     </h4>
@@ -65,11 +65,25 @@ export default {
 </script>
 
 <style scoped>
-.container {
+.repoContainer {
   background-color: lightgray;
   width: 100%;
   border-radius: 2em;
   text-align: center;
+  padding: 2em 0 3em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  box-shadow: gray 1.2rem 1.2rem;
+}
+
+.repoContainer:hover {
+  transform: scale(1.01);
+}
+
+.repoContainer > * {
+  margin: 1rem;
 }
 
 .language-container {

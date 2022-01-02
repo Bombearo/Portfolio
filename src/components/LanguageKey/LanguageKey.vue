@@ -37,6 +37,6 @@ export default {
 }
 
 .container > div {
-  margin: 1rem;
+  margin: 0 1rem;
 }
 </style>
