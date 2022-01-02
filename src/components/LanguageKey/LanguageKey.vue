@@ -10,11 +10,10 @@ export default {
   name: "LanguageKey",
   props: {
     name: { type: String },
-    percentage: { type: Number },
+    percentage: { type: String },
     colour: { type: String },
   },
 };
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

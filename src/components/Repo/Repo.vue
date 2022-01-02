@@ -27,11 +27,22 @@
       <div class="stars">Stargazers: {{ repoData.stargazers_count }}</div>
       <div class="watchers">Watchers: {{ repoData.watchers_count }}</div>
     </div>
+    <div class="reference">
+      Colours taken from
+      <a
+        href="https://github.com/ozh/github-colors/blob/master/colors.json"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        this github repository</a
+      >
+    </div>
   </div>
 </template>
 
 <script>
 import LanguageKey from "../LanguageKey/LanguageKey.vue";
+//import colours from "../../assets/colors.json";
 
 export default {
   name: "Repo",

@@ -27,4 +27,21 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+@font-face {
+  font-family: montserrat;
+  src: url(../../assets/fonts/Montserrat-Medium.ttf);
+}
+
+h4 {
+  font-family: montserrat, monospace;
+  font-size: 1.5rem;
+  letter-spacing: 0.2em;
+}
+
+p {
+  font-family: montserrat;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+</style>
