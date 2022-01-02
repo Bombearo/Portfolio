@@ -8,9 +8,11 @@
       <span
         v-for="language in repoData.languages"
         :key="language"
-        :style="{ width: language.percentage }"
+        :style="{
+          width: language.percentage,
+          'background-color': getColour(language.name),
+        }"
         class="lang-item"
-        :class="language.name"
       >
       </span>
     </div>
@@ -19,7 +21,11 @@
         class="key-item"
         v-for="language in repoData.languages"
         :key="language"
-        v-bind="{ name: language.name, percentage: language.percentage }"
+        v-bind="{
+          name: language.name,
+          percentage: language.percentage,
+          colour: getColour(language.name),
+        }"
       ></language-key>
     </div>
 
@@ -42,12 +48,19 @@
 
 <script>
 import LanguageKey from "../LanguageKey/LanguageKey.vue";
-//import colours from "../../assets/colors.json";
+import colours from "../../assets/colors.json";
+
+console.log(colours["Vue"]);
 
 export default {
   name: "Repo",
   props: { repoData: { type: Object } },
   components: { LanguageKey },
+  methods: {
+    getColour(name) {
+      return colours[name].color;
+    },
+  },
 };
 </script>
 
@@ -82,16 +95,5 @@ export default {
   display: flex;
   margin: auto;
   justify-content: space-evenly;
-}
-
-.Vue {
-  background-color: green;
-  color: green;
-}
-.JavaScript {
-  background-color: yellow;
-}
-.HTML {
-  background-color: orange;
 }
 </style>
