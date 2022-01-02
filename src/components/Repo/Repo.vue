@@ -15,12 +15,12 @@
       </span>
     </div>
     <div class="language-key">
-      <div
+      <language-key
         class="key-item"
         v-for="language in repoData.languages"
         :key="language"
         v-bind="{ name: language.name, percentage: language.percentage }"
-      ></div>
+      ></language-key>
     </div>
 
     <div class="watch-stars">
@@ -31,9 +31,12 @@
 </template>
 
 <script>
+import LanguageKey from "../LanguageKey/LanguageKey.vue";
+
 export default {
   name: "Repo",
   props: { repoData: { type: Object } },
+  components: { LanguageKey },
 };
 </script>
 
@@ -61,6 +64,12 @@ export default {
 
 .watch-stars {
   display: flex;
+  justify-content: space-evenly;
+}
+
+.language-key {
+  display: flex;
+  margin: auto;
   justify-content: space-evenly;
 }
 
