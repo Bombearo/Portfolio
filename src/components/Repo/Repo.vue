@@ -5,19 +5,27 @@
     </h4>
     <p>{{ repoData.description }}</p>
     <div class="language-container">
-      <div
+      <span
         v-for="language in repoData.languages"
         :key="language"
         :style="{ width: language.percentage }"
         class="lang-item"
         :class="language.name"
       >
-        {{ language.name }}
-      </div>
+      </span>
     </div>
+    <div class="language-key">
+      <div
+        class="key-item"
+        v-for="language in repoData.languages"
+        :key="language"
+        v-bind="{ name: language.name, percentage: language.percentage }"
+      ></div>
+    </div>
+
     <div class="watch-stars">
-      <div class="stars">{{ repoData.stargazers_count }}</div>
-      <div class="watchers">{{ repoData.watchers_count }}</div>
+      <div class="stars">Stargazers: {{ repoData.stargazers_count }}</div>
+      <div class="watchers">Watchers: {{ repoData.watchers_count }}</div>
     </div>
   </div>
 </template>
@@ -42,6 +50,7 @@ export default {
   width: 80%;
   overflow: hidden;
   margin: auto;
+  height: 1em;
   min-height: 5%;
   border-radius: 1em;
 }
