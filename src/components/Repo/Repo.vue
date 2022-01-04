@@ -50,8 +50,6 @@
 import LanguageKey from "../LanguageKey/LanguageKey.vue";
 import colours from "../../assets/colors.json";
 
-console.log(colours["Vue"]);
-
 export default {
   name: "Repo",
   props: { repoData: { type: Object } },
