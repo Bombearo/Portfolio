@@ -3,7 +3,8 @@
     <h4>
       <a :href="repoData.html_url" target="_blank">{{ repoData.name }}</a>
     </h4>
-    <p>{{ repoData.description }}</p>
+    <p v-if="repoData.description">{{ repoData.description }}</p>
+    <p v-else>No description provided</p>
     <div class="language-container">
       <span
         v-for="language in repoData.languages"
@@ -33,6 +34,16 @@
       <div class="stars">Stargazers: {{ repoData.stargazers_count }}</div>
       <div class="watchers">Watchers: {{ repoData.watchers_count }}</div>
     </div>
+    <div class="creation">
+      <p>{{ repoData.time_from_creation }}</p>
+    </div>
+
+    <CloneContainer
+      :html="repoData.clone_url"
+      :ssh="repoData.ssh_url"
+      :git="repoData.git_url"
+    />
+
     <div class="reference">
       Colours taken from
       <a
@@ -48,12 +59,13 @@
 
 <script>
 import LanguageKey from "../LanguageKey/LanguageKey.vue";
+import CloneContainer from "../CloneContainer/CloneContainer.vue";
 import colours from "../../assets/colors.json";
 
 export default {
   name: "Repo",
   props: { repoData: { type: Object } },
-  components: { LanguageKey },
+  components: { LanguageKey, CloneContainer },
   methods: {
     getColour(name) {
       return colours[name].color;
