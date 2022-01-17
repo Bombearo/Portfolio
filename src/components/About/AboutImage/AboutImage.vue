@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <div><img src="./PFP.png" alt="" /></div>
 </template>
 
 <script>
@@ -24,12 +24,16 @@ div {
   overflow: hidden;
   width: 701px;
   height: 970px;
-
-  background: url(PFP.png);
   border-radius: 63px;
   background-size: cover;
 }
 img {
   width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  div {
+    width: 100%;
+    height: 100%;
+  }
 }
 </style>

@@ -28,6 +28,6 @@ export default {
 
 <style scoped>
 .AboutSection {
-  height: 100vh;
+  position: relative;
 }
 </style>

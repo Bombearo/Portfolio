@@ -28,12 +28,11 @@ p {
 
 h4 {
   font-family: montserrat, monospace;
-  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 2.5vw, 2.5rem);
   letter-spacing: 0.2em;
 
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
   line-height: 44px;
 
   /* identical to box height */
@@ -45,11 +44,10 @@ h4 {
 
 p {
   font-family: montserrat;
-  font-size: 1rem;
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
   letter-spacing: 0.1rem;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
   line-height: 29px;
 
   color: #000000;
