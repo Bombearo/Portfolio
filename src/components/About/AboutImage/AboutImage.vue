@@ -1,10 +1,5 @@
 <template>
-  <div>
-    <img
-      src="https://cdn.discordapp.com/attachments/597175122222252038/924050897745629224/20211218_160545.jpg"
-      alt="Profile Picture"
-    />
-  </div>
+  <div></div>
 </template>
 
 <script>
@@ -27,14 +22,12 @@ export default {
 <style scoped>
 div {
   overflow: hidden;
-  position: absolute;
-width: 701px;
-height: 970px;
-left: 628px;
-top: 27px;
+  width: 701px;
+  height: 970px;
 
-background: url(PFP.png);
-border-radius: 63px;
+  background: url(PFP.png);
+  border-radius: 63px;
+  background-size: cover;
 }
 img {
   width: 100%;

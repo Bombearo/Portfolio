@@ -1,15 +1,15 @@
 <template>
-  <div>
+  <div class="AboutSection">
     <SectionContainer>
       <template v-slot:content>
         <div class="about-desc">
-          <TextContainer>
-
-          </TextContainer>
+          <TextContainer> </TextContainer>
         </div>
       </template>
       <template v-slot:media>
-        <AboutImage src="../../assets/temp/PFP.jpg" />
+        <div class="image">
+          <AboutImage src="../../assets/temp/PFP.jpg" />
+        </div>
       </template>
     </SectionContainer>
   </div>
@@ -22,10 +22,12 @@ import TextContainer from "../TextContainer/TextContainer.vue";
 
 export default {
   name: "AboutContainer",
-  components: { SectionContainer, AboutImage , TextContainer},
+  components: { SectionContainer, AboutImage, TextContainer },
 };
 </script>
 
 <style scoped>
-
+.AboutSection {
+  height: 100vh;
+}
 </style>
