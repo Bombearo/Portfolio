@@ -31,7 +31,7 @@ import SectionContainer from "../SectionContainer/SectionContainer.vue";
 import AboutImage from "../AboutImage/AboutImage.vue";
 
 export default {
-  name: "About",
+  name: "AboutContainer",
   components: { SectionContainer, AboutImage },
 };
 </script>

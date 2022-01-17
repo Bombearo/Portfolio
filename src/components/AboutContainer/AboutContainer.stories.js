@@ -1,4 +1,4 @@
-import About from "./About.vue";
+import About from "./AboutContainer.vue";
 
 export default {
   title: "Home/About",
@@ -10,7 +10,7 @@ const Template = (args) => ({
   setup() {
     return { args };
   },
-  template: '<About v-bind="args"/>',
+  template: '<AboutContainer v-bind="args"/>',
 });
 
 export const Primary = Template.bind({});
