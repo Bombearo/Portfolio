@@ -26,8 +26,15 @@ export default {
 
 <style scoped>
 div {
-  border-radius: 2.5rem;
   overflow: hidden;
+  position: absolute;
+width: 701px;
+height: 970px;
+left: 628px;
+top: 27px;
+
+background: url(PFP.png);
+border-radius: 63px;
 }
 img {
   width: 100%;
