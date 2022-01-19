@@ -1,16 +1,16 @@
-import GithubDesc from "./GithubDesc";
+import GithubDesc from './GithubDesc';
 
 export default {
-  title: "Home/GithubDesc",
-  component: GithubDesc,
+  title: 'Home/GithubDesc',
+  component: GithubDesc
 };
 
 const Template = (args) => ({
   components: { GithubDesc },
-  setup() {
+  setup () {
     return { args };
   },
-  template: '<GithubDesc v-bind="args"/>',
+  template: '<GithubDesc v-bind="args"/>'
 });
 
 export const Primary = Template.bind({});

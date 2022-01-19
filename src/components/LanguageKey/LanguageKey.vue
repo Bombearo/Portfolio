@@ -14,12 +14,12 @@
 
 <script>
 export default {
-  name: "LanguageKey",
+  name: 'LanguageKey',
   props: {
     name: { type: String },
     percentage: { type: String },
-    colour: { type: String },
-  },
+    colour: { type: String }
+  }
 };
 </script>
 

@@ -16,13 +16,13 @@
 </template>
 
 <script>
-import SectionContainer from "../../SectionContainer/SectionContainer.vue";
-import AboutImage from "../AboutImage/AboutImage.vue";
-import TextContainer from "../TextContainer/TextContainer.vue";
+import SectionContainer from '../../SectionContainer/SectionContainer.vue';
+import AboutImage from '../AboutImage/AboutImage.vue';
+import TextContainer from '../TextContainer/TextContainer.vue';
 
 export default {
-  name: "AboutContainer",
-  components: { SectionContainer, AboutImage, TextContainer },
+  name: 'AboutContainer',
+  components: { SectionContainer, AboutImage, TextContainer }
 };
 </script>
 

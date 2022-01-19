@@ -18,12 +18,12 @@
 </template>
 
 <script>
-import SectionContainer from "../SectionContainer/SectionContainer.vue";
-import GithubAbout from "../GithubAbout/GithubAbout.vue";
+import SectionContainer from '../SectionContainer/SectionContainer.vue';
+import GithubAbout from '../GithubAbout/GithubAbout.vue';
 
 export default {
-  name: "GithubDesc",
-  components: { SectionContainer, GithubAbout },
+  name: 'GithubDesc',
+  components: { SectionContainer, GithubAbout }
 };
 </script>
 

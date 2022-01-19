@@ -31,23 +31,23 @@
 
 <script>
 export default {
-  name: "GithubAbout",
+  name: 'GithubAbout',
   methods: {
-    getUser() {
+    getUser () {
       return {
-        login: "Bombearo",
-        repos_url: "https://api.github.com/users/Bombearo/repos",
-        avatar_url: "https://avatars.githubusercontent.com/u/69163892?v=4",
-        html_url: "https://github.com/Bombearo",
-        bio: "Hi Everyone, I'm an 19 year old student from the UK who's looking to study Computer Science at Uni! I enjoy solving puzzles, but also creating music.",
+        login: 'Bombearo',
+        repos_url: 'https://api.github.com/users/Bombearo/repos',
+        avatar_url: 'https://avatars.githubusercontent.com/u/69163892?v=4',
+        html_url: 'https://github.com/Bombearo',
+        bio: 'Hi Everyone, I\'m an 19 year old student from the UK who\'s looking to study Computer Science at Uni! I enjoy solving puzzles, but also creating music.',
         followers: 15,
         following: 15,
         public_repos: 9,
-        created_at: "2020-08-03T17:26:55Z",
-        loyalty: "Created 1 year, 1 month, and 1 day ago",
+        created_at: '2020-08-03T17:26:55Z',
+        loyalty: 'Created 1 year, 1 month, and 1 day ago'
       };
-    },
-  },
+    }
+  }
 };
 </script>
 

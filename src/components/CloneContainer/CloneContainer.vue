@@ -21,30 +21,30 @@
 
 <script>
 export default {
-  name: "CloneContainer",
-  data() {
+  name: 'CloneContainer',
+  data () {
     return {
       buttonList: [
-        ["html", "HTTPS"],
-        ["ssh", "SSH"],
-        ["git", "GitHub CLI"],
+        ['html', 'HTTPS'],
+        ['ssh', 'SSH'],
+        ['git', 'GitHub CLI']
       ],
-      currentURL: this.html,
+      currentURL: this.html
     };
   },
   props: {
     html: String,
     ssh: String,
-    git: String,
+    git: String
   },
   methods: {
-    updateContainer(buttonType) {
+    updateContainer (buttonType) {
       this.currentURL = this[buttonType];
     },
-    capitalise(string) {
+    capitalise (string) {
       return string.charAt(0).toUpperCase() + string.slice(1);
-    },
-  },
+    }
+  }
 };
 </script>
 

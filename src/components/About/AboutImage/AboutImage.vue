@@ -4,18 +4,18 @@
 
 <script>
 export default {
-  name: "AboutImage",
+  name: 'AboutImage',
   props: {
     src: {
-      type: String,
-    },
+      type: String
+    }
   },
   methods: {
-    getURL() {
+    getURL () {
       console.log(this.src);
       return require(this.src);
-    },
-  },
+    }
+  }
 };
 </script>
 
@@ -23,7 +23,6 @@ export default {
 div {
   overflow: hidden;
   width: 701px;
-  height: 970px;
   border-radius: 63px;
   background-size: cover;
 }

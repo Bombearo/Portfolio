@@ -8,14 +8,14 @@
 
 <script>
 // @ is an alias to /src
-import AboutContainer from "@/components/About/AboutContainer/AboutContainer.vue";
-import GithubDesc from "@/components/GithubDesc/GithubDesc.vue";
+import AboutContainer from '@/components/About/AboutContainer/AboutContainer.vue';
+import GithubDesc from '@/components/GithubDesc/GithubDesc.vue';
 
 export default {
-  name: "Home",
+  name: 'Home',
   components: {
     AboutContainer,
-    GithubDesc,
-  },
+    GithubDesc
+  }
 };
 </script>

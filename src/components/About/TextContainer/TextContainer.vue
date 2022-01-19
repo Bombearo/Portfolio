@@ -12,10 +12,10 @@
 </template>
 
 <script>
-import AboutText from "../AboutText/AboutText.vue";
+import AboutText from '../AboutText/AboutText.vue';
 export default {
-  name: "TextContainer",
-  components: { AboutText },
+  name: 'TextContainer',
+  components: { AboutText }
 };
 </script>
 
