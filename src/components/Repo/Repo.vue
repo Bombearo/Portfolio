@@ -58,19 +58,19 @@
 </template>
 
 <script>
-import LanguageKey from '../LanguageKey/LanguageKey.vue';
-import CloneContainer from '../CloneContainer/CloneContainer.vue';
-import colours from '../../assets/colors.json';
+import LanguageKey from "../LanguageKey/LanguageKey.vue";
+import CloneContainer from "../CloneContainer/CloneContainer.vue";
+import colours from "../../assets/colors.json";
 
 export default {
-  name: 'Repo',
+  name: "RepoItem",
   props: { repoData: { type: Object } },
   components: { LanguageKey, CloneContainer },
   methods: {
-    getColour (name) {
+    getColour(name) {
       return colours[name].color;
-    }
-  }
+    },
+  },
 };
 </script>
 

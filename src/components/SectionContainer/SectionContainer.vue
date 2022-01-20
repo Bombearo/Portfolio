@@ -21,13 +21,13 @@
 
 <script>
 export default {
-  name: 'SectionContainer',
+  name: "SectionContainer",
   props: {
     alignedRight: {
       type: Boolean,
-      default: false
-    }
-  }
+      default: false,
+    },
+  },
 };
 </script>
 

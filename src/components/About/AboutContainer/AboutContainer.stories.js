@@ -1,16 +1,16 @@
-import About from './AboutContainer.vue';
+import About from "./AboutContainer.vue";
 
 export default {
-  title: 'Home/About',
-  component: About
+  title: "Home/About",
+  component: About,
 };
 
 const Template = (args) => ({
   components: { About },
-  setup () {
+  setup() {
     return { args };
   },
-  template: '<AboutContainer v-bind="args"/>'
+  template: '<AboutContainer v-bind="args"/>',
 });
 
 export const Primary = Template.bind({});

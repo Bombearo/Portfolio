@@ -4,18 +4,18 @@
 
 <script>
 export default {
-  name: 'AboutImage',
+  name: "AboutImage",
   props: {
     src: {
-      type: String
-    }
+      type: String,
+    },
   },
   methods: {
-    getURL () {
+    getURL() {
       console.log(this.src);
       return require(this.src);
-    }
-  }
+    },
+  },
 };
 </script>
 
