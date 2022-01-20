@@ -31,23 +31,23 @@
 
 <script>
 export default {
-  name: 'GithubAbout',
+  name: "GithubAbout",
   methods: {
-    getUser () {
+    getUser() {
       return {
-        login: 'Bombearo',
-        repos_url: 'https://api.github.com/users/Bombearo/repos',
-        avatar_url: 'https://avatars.githubusercontent.com/u/69163892?v=4',
-        html_url: 'https://github.com/Bombearo',
-        bio: 'Hi Everyone, I\'m an 19 year old student from the UK who\'s looking to study Computer Science at Uni! I enjoy solving puzzles, but also creating music.',
+        login: "Bombearo",
+        repos_url: "https://api.github.com/users/Bombearo/repos",
+        avatar_url: "https://avatars.githubusercontent.com/u/69163892?v=4",
+        html_url: "https://github.com/Bombearo",
+        bio: "Hi Everyone, I'm an 19 year old student from the UK who's looking to study Computer Science at Uni! I enjoy solving puzzles, but also creating music.",
         followers: 15,
         following: 15,
         public_repos: 9,
-        created_at: '2020-08-03T17:26:55Z',
-        loyalty: 'Created 1 year, 1 month, and 1 day ago'
+        created_at: "2020-08-03T17:26:55Z",
+        loyalty: "Created 1 year, 1 month, and 1 day ago",
       };
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -55,25 +55,21 @@ export default {
 /*Temporary font*/
 @font-face {
   font-family: montserrat;
-  src: url(../../assets/fonts/Montserrat-Medium.ttf);
+  src: url(../../../assets/fonts/Montserrat-Medium.ttf);
 }
 @font-face {
   font-family: montserrat-bold;
-  src: url(../../assets/fonts/Montserrat-Bold.ttf);
+  src: url(../../../assets/fonts/Montserrat-Bold.ttf);
 }
 @font-face {
   font-family: montserrat-light;
-  src: url(../../assets/fonts/Montserrat-Light.ttf);
+  src: url(../../../assets/fonts/Montserrat-Light.ttf);
 }
 
 div {
   font-family: montserrat, monospace;
   font-size: 0.9rem;
   margin: 0.2em;
-}
-
-h4 {
-  font-size: 1.5rem;
 }
 
 a {
@@ -84,6 +80,15 @@ a {
 
 a:hover {
   color: grey;
+}
+p {
+  font-size: 18px;
+  line-height: 150%;
+
+  /* or 27px */
+  letter-spacing: 0.08em;
+
+  color: #000000;
 }
 
 .container {

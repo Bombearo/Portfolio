@@ -9,7 +9,7 @@
 <script>
 // @ is an alias to /src
 import AboutContainer from "@/components/About/AboutContainer/AboutContainer.vue";
-import GithubDesc from "@/components/GithubDesc/GithubDesc.vue";
+import GithubDesc from "@/components/Github/GithubDesc/GithubDesc.vue";
 
 export default {
   name: "HomePage",
