@@ -36,6 +36,7 @@ export default {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
+  position: relative;
 }
 
 .section > div {

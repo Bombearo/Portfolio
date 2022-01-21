@@ -53,18 +53,6 @@ export default {
 
 <style scoped>
 /*Temporary font*/
-@font-face {
-  font-family: montserrat;
-  src: url(../../../assets/fonts/Montserrat-Medium.ttf);
-}
-@font-face {
-  font-family: montserrat-bold;
-  src: url(../../../assets/fonts/Montserrat-Bold.ttf);
-}
-@font-face {
-  font-family: montserrat-light;
-  src: url(../../../assets/fonts/Montserrat-Light.ttf);
-}
 
 div {
   font-family: montserrat, monospace;
@@ -72,35 +60,61 @@ div {
   margin: 0.2em;
 }
 
+h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 0px;
+
+  /* identical to box height */
+  letter-spacing: 0.08em;
+}
+
 a {
   text-decoration: none;
-  font-family: montserrat-bold, monospace;
-  color: black;
+  font-family: montserrat-semiBold, monospace;
+}
+a:visited {
+  color: #b86707;
 }
 
 a:hover {
-  color: grey;
+  color: #7b4504;
+}
+
+h4,
+p {
+  text-align: left;
 }
 p {
+  font-family: montserrat;
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   line-height: 150%;
 
   /* or 27px */
   letter-spacing: 0.08em;
-
-  color: #000000;
 }
 
 .container {
-  background-color: lightgray;
-  border-radius: 2rem;
-  padding: 5rem 1.5rem;
-  box-shadow: gray 0.5em 0.7rem;
+  position: absolute;
+  width: 30%;
+  height: 820px;
+  left: clamp(5em, 10vw, 20em);
+  top: 33px;
+
+  background: #ffffff;
+  border: 10px solid #82a070;
+  box-sizing: border-box;
+  box-shadow: 4px 24px 7px rgba(215, 236, 201, 0.53);
+  border-radius: 55px;
+  padding: 20px;
 }
 
 .container:hover {
   transform: scale(1.01);
-  box-shadow: gray 0.6em 0.8rem;
+  box-shadow: rgba(174, 194, 162, 0.53) 0.6em 0.8rem;
 }
 
 .bio {
@@ -123,6 +137,8 @@ p {
   overflow: hidden;
   width: 70%;
   margin: auto;
+
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
 }
 
 img {

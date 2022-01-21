@@ -9,6 +9,19 @@
   src: url(./assets/fonts/Montserrat-Medium.ttf);
 }
 
+@font-face {
+  font-family: montserrat-semiBold;
+  src: url(./assets/fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: montserrat-bold;
+  src: url(./assets/fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: montserrat-light;
+  src: url(./assets/fonts/Montserrat-Light.ttf);
+}
+
 div {
   font-family: montserrat, monospace;
 }
@@ -43,6 +56,7 @@ h4 {
 
   /* identical to box height */
   letter-spacing: 0.15em;
+  text-align: left;
 }
 p {
   font-style: normal;
@@ -50,5 +64,6 @@ p {
 
   letter-spacing: 0.1rem;
   color: #000000;
+  text-align: left;
 }
 </style>
