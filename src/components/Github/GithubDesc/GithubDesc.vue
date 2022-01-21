@@ -33,7 +33,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.desc {
-}
-</style>
+<style scoped></style>

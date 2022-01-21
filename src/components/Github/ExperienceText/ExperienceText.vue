@@ -24,7 +24,7 @@ h4 {
   line-height: 44px;
 
   /* identical to box height */
-  text-align: center;
+  text-align: left;
   letter-spacing: 0.15em;
 
   text-transform: uppercase;

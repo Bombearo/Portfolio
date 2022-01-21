@@ -1,6 +1,9 @@
 <template>
   <div id="nav"><router-link to="/">Home</router-link> |</div>
   <router-view />
+  <!--
+  <footer>Made by Jaden Shek</footer>
+  -->
 </template>
 
 <style>
@@ -56,7 +59,6 @@ h4 {
 
   /* identical to box height */
   letter-spacing: 0.15em;
-  text-align: left;
 }
 p {
   font-style: normal;
@@ -65,5 +67,11 @@ p {
   letter-spacing: 0.1rem;
   color: #000000;
   text-align: left;
+}
+
+footer {
+  background: #476039;
+  color: white;
+  padding: 3rem;
 }
 </style>
