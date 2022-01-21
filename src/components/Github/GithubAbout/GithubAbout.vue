@@ -12,16 +12,15 @@
     <p class="bio">{{ getUser().bio }}</p>
 
     <div class="stats">
-      <div class="repo-count">
-        <p>Total repos: {{ getUser().public_repos }}</p>
-      </div>
-
       <div class="followers">
         <p>Followers: {{ getUser().followers }}</p>
       </div>
       <div class="following">
         <p>Following: {{ getUser().following }}</p>
       </div>
+    </div>
+    <div class="repo-count">
+      <p>Total repos: {{ getUser().public_repos }}</p>
     </div>
     <div class="created">
       <p>{{ getUser().loyalty }}</p>
@@ -121,19 +120,21 @@ p {
   font-family: montserrat-light, monospace;
 }
 
-.created {
-  text-align: right;
+.created p {
   color: grey;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
 }
 
 .stats {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
+}
+.stats > div {
+  margin-right: 10%;
 }
 
 .img-container {
-  border-radius: 50%;
+  border-radius: 100%;
   overflow: hidden;
   width: 70%;
   margin: auto;
@@ -142,6 +143,7 @@ p {
 }
 
 img {
+  transform: scale(1.1);
   width: 100%;
 }
 </style>
