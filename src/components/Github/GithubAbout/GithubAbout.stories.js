@@ -1,16 +1,16 @@
-import GithubAbout from './GithubAbout';
+import GithubAbout from "./GithubAbout";
 
 export default {
-  title: 'HomePage/GithubAbout',
-  component: GithubAbout
+  title: "HomePage/GithubAbout",
+  component: GithubAbout,
 };
 
 const Template = (args) => ({
   components: { GithubAbout },
-  setup () {
+  setup() {
     return { args };
   },
-  template: '<GithubAbout v-bind="args"/>'
+  template: '<GithubAbout v-bind="args"/>',
 });
 
 export const Primary = Template.bind({});

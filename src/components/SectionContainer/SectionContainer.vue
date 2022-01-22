@@ -21,13 +21,13 @@
 
 <script>
 export default {
-  name: 'SectionContainer',
+  name: "SectionContainer",
   props: {
     alignedRight: {
       type: Boolean,
-      default: false
-    }
-  }
+      default: false,
+    },
+  },
 };
 </script>
 
@@ -36,6 +36,7 @@ export default {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
+  position: relative;
 }
 
 .section > div {

@@ -7,11 +7,11 @@
 
 <script>
 export default {
-  name: 'AboutText',
+  name: "AboutText",
   props: {
     title: String,
-    subtext: String
-  }
+    subtext: String,
+  },
 };
 </script>
 
