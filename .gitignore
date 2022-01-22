@@ -3,6 +3,9 @@ node_modules
 /dist
 
 
+/src/assets/temp
+/src/components/About/AboutImage/PFP.png
+
 # local env files
 .env.local
 .env.*.local
