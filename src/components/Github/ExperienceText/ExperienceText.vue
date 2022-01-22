@@ -33,7 +33,7 @@ p {
   font-family: montserrat;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: clamp(1.25rem, 1vw, 2rem);
   line-height: 29px;
   display: flex;
   align-items: center;

@@ -62,7 +62,7 @@ div {
 h4 {
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
+
   line-height: 0px;
 
   /* identical to box height */
@@ -89,11 +89,13 @@ p {
   font-family: montserrat;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+
   line-height: 150%;
 
   /* or 27px */
   letter-spacing: 0.08em;
+
+  font-size: clamp(1rem, 2%, 2rem);
 }
 
 .container {

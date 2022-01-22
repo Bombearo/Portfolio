@@ -56,6 +56,7 @@ h4 {
   color: #cd7308;
   font-style: normal;
   font-weight: 600;
+  font-size: 36px;
 
   /* identical to box height */
   letter-spacing: 0.15em;
@@ -67,6 +68,7 @@ p {
   letter-spacing: 0.1rem;
   color: #000000;
   text-align: left;
+  font-size: 18px;
 }
 
 footer {
