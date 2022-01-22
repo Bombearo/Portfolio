@@ -98,7 +98,7 @@ p {
 
 .container {
   position: absolute;
-  width: 30%;
+  width: max(30%, 30rem);
   height: 820px;
   left: clamp(5em, 10vw, 20em);
   top: 33px;
@@ -145,5 +145,14 @@ p {
 img {
   transform: scale(1.1);
   width: 100%;
+}
+
+@media screen and (max-width: 2000px) {
+  .container {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 </style>
