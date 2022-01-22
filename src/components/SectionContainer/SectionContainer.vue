@@ -21,13 +21,13 @@
 
 <script>
 export default {
-  name: "SectionContainer",
+  name: 'SectionContainer',
   props: {
     alignedRight: {
       type: Boolean,
-      default: false,
-    },
-  },
+      default: false
+    }
+  }
 };
 </script>
 
@@ -43,14 +43,17 @@ export default {
 }
 
 .content {
-  width: 60%;
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .media {
-  width: 40%;
+  width: 50%;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   .section {
     flex-direction: column;
     margin: auto;

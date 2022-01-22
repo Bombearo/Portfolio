@@ -1,17 +1,17 @@
-import SectionContainer from "./SectionContainer.vue";
+import SectionContainer from './SectionContainer.vue';
 
 export default {
-  title: "Home/SectionContainer",
-  component: SectionContainer,
+  title: 'Home/SectionContainer',
+  component: SectionContainer
 };
 
 const Template = (args) => ({
   components: { SectionContainer },
-  setup() {
+  setup () {
     return { args };
   },
   template:
-    '<SectionContainer v-bind="args"><template v-slot:content>Hi</template><template v-slot:media> 123</template></SectionContainer>',
+    '<SectionContainer v-bind="args"><template v-slot:content><GithubAbout /></template><template v-slot:media> 123</template></SectionContainer>'
 });
 
 export const Primary = Template.bind({});

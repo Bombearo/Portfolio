@@ -35,4 +35,20 @@ div {
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+h4 {
+  color: #cd7308;
+  font-style: normal;
+  font-weight: 600;
+
+  /* identical to box height */
+  letter-spacing: 0.15em;
+}
+p {
+  font-style: normal;
+  font-weight: normal;
+
+  letter-spacing: 0.1rem;
+  color: #000000;
+}
 </style>
