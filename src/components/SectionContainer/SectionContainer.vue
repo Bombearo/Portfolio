@@ -37,6 +37,7 @@ export default {
   width: 100%;
   justify-content: space-evenly;
   position: relative;
+  margin-bottom: 5vh;
 }
 
 .section > div {

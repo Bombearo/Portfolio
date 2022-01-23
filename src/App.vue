@@ -1,9 +1,8 @@
 <template>
   <div id="nav"><router-link to="/">Home</router-link> |</div>
   <router-view />
-  <!--
+
   <footer>Made by Jaden Shek</footer>
-  -->
 </template>
 
 <style>
@@ -75,5 +74,10 @@ footer {
   background: #476039;
   color: white;
   padding: 3rem;
+  font-family: montserrat, monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: clamp(1rem, 2vw, 1.75rem);
+  line-height: 22px;
 }
 </style>
