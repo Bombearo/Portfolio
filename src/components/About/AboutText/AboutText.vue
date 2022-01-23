@@ -16,11 +16,6 @@ export default {
 </script>
 
 <style scoped>
-@font-face {
-  font-family: montserrat;
-  src: url(../../../assets/fonts/Montserrat-Medium.ttf);
-}
-
 h4,
 p {
   text-align: center;
@@ -30,7 +25,7 @@ h4 {
   font-family: montserrat, monospace;
   font-size: clamp(1.5rem, 2.5vw, 2.5rem);
 
-  line-height: 44px;
+  line-height: clamp(1.5rem, 2.5vw, 5rem);
 
   text-transform: uppercase;
 }
@@ -38,6 +33,6 @@ h4 {
 p {
   font-family: montserrat;
   font-size: clamp(1rem, 1.5vw, 1.5rem);
-  line-height: 29px;
+  line-height: min(2rem, 5vw);
 }
 </style>

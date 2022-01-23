@@ -20,8 +20,8 @@ h4 {
   font-family: montserrat-semiBold;
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
+  font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+  line-height: clamp(1.5rem, 2.5vw, 5rem);
 
   /* identical to box height */
   text-align: left;
@@ -33,8 +33,8 @@ p {
   font-family: montserrat;
   font-style: normal;
   font-weight: normal;
-  font-size: clamp(1.25rem, 1vw, 2rem);
-  line-height: 29px;
+  font-size: clamp(1.25rem, 1.5vw, 1.75rem);
+  line-height: min(2rem, 5vw);
   display: flex;
   align-items: center;
 

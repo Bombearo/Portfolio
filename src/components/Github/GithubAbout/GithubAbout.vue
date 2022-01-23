@@ -153,8 +153,14 @@ img {
   .container {
     position: relative;
     left: 0;
-    width: 100%;
+    width: 80%;
     height: 100%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 100%;
   }
 }
 </style>
