@@ -11,7 +11,7 @@
 // @ is an alias to /src
 import AboutContainer from "@/components/About/AboutContainer/AboutContainer.vue";
 import GithubDesc from "@/components/Github/GithubDesc/GithubDesc.vue";
-import MidCard from "@/components/MiscLayout/MidCard/MidCard.vue";
+import MidCard from "@/components/MidCard/MidCard.vue";
 
 export default {
   name: "HomePage",
