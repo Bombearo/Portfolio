@@ -30,9 +30,18 @@ export default {
 @media screen and (min-width: 1024px) {
   .container {
     position: absolute;
-    width: clamp(30rem, 45vw, 50rem);
+    width: clamp(30rem, 45vw, 40rem);
     top: clamp(5rem, 50%, 10rem);
-    left: clamp(1rem, 7.5vw, 15rem);
+    left: clamp(1rem, 4.5vw, 10rem);
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .container {
+    position: absolute;
+    width: clamp(30rem, 45vw, 45rem);
+    top: clamp(5rem, 50%, 10rem);
+    left: clamp(1rem, 7.5vw, 10rem);
   }
 }
 </style>
