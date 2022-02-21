@@ -1,16 +1,18 @@
 <template>
   <div class="item">
     <div class="date">
-      <h3>
+      <h4>
         {{ dateRange }}
-      </h3>
+      </h4>
     </div>
     <div class="qualifications">
       <div class="qualification">
-        {{ qualification }}
+        <h3>
+          {{ qualification }}
+        </h3>
       </div>
       <div class="subText">
-        {{ subText }}
+        <p>{{ subText }}</p>
       </div>
     </div>
   </div>
@@ -29,7 +31,12 @@ export default {
 
 <style scoped>
 @font-face {
-  font-family: montserrat-italic;
+  font-family: montserrat-light;
+  src: url(../../../assets/fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: montserrat-light-italic;
   src: url(../../../assets/fonts/Montserrat-LightItalic.ttf);
 }
 
@@ -39,7 +46,7 @@ export default {
   border: 3px solid #657f56;
   border-radius: 15px;
   padding: 1rem;
-  font-family: montserrat-italic;
+  font-family: montserrat-light;
   margin-bottom: 2rem;
 }
 .date {
@@ -48,6 +55,23 @@ export default {
   width: 30%;
 }
 .qualifications {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
   width: 50%;
+  font-family: montserrat-light-italic;
+}
+h3,
+p {
+  margin: 0;
+}
+
+h3 {
+  font-size: 28px;
+}
+h4,
+p {
+  font-size: 24px;
 }
 </style>

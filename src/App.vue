@@ -23,6 +23,14 @@
   font-family: montserrat-light;
   src: url(./assets/fonts/Montserrat-Light.ttf);
 }
+@font-face {
+  font-family: montserrat-light-italic;
+  src: url(../../../assets/fonts/Montserrat-LightItalic.ttf);
+}
+@font-face {
+  font-family: montserrat-light-italic;
+  src: url(../../../assets/fonts/Montserrat-LightItalic.ttf);
+}
 
 div {
   font-family: montserrat, monospace;
