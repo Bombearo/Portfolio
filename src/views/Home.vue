@@ -3,6 +3,7 @@
     <AboutContainer />
     <MidCard />
     <GithubDesc />
+    <ExperienceContainer />
   </div>
 </template>
 
@@ -11,6 +12,7 @@
 import AboutContainer from "@/components/About/AboutContainer/AboutContainer.vue";
 import GithubDesc from "@/components/Github/GithubDesc/GithubDesc.vue";
 import MidCard from "@/components/MidCard/MidCard.vue";
+import ExperienceContainer from "@/components/Experience/ExperienceContainer/ExperienceContainer.vue";
 
 export default {
   name: "HomePage",
@@ -18,6 +20,7 @@ export default {
     AboutContainer,
     GithubDesc,
     MidCard,
+    ExperienceContainer,
   },
 };
 </script>

@@ -23,13 +23,10 @@
   font-family: montserrat-light;
   src: url(./assets/fonts/Montserrat-Light.ttf);
 }
+
 @font-face {
   font-family: montserrat-light-italic;
-  src: url(../../../assets/fonts/Montserrat-LightItalic.ttf);
-}
-@font-face {
-  font-family: montserrat-light-italic;
-  src: url(../../../assets/fonts/Montserrat-LightItalic.ttf);
+  src: url(./assets/fonts/Montserrat-LightItalic.ttf);
 }
 
 div {
@@ -59,6 +56,7 @@ div {
   color: #42b983;
 }
 
+h2,
 h4 {
   color: #cd7308;
   font-style: normal;

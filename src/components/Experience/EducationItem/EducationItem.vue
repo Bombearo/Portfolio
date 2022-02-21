@@ -30,16 +30,6 @@ export default {
 </script>
 
 <style scoped>
-@font-face {
-  font-family: montserrat-light;
-  src: url(../../../assets/fonts/Montserrat-Light.ttf);
-}
-
-@font-face {
-  font-family: montserrat-light-italic;
-  src: url(../../../assets/fonts/Montserrat-LightItalic.ttf);
-}
-
 .item {
   display: flex;
   justify-content: space-between;
@@ -60,7 +50,8 @@ export default {
   align-items: flex-end;
   justify-content: center;
   width: 50%;
-  font-family: montserrat-light-italic;
+  font-family: montserrat-light-italic sans-serif;
+  font-style: italic;
 }
 h3,
 p {
