@@ -1,8 +1,11 @@
 <template>
   <div id="nav"><router-link to="/">Home</router-link> |</div>
-  <router-view />
-
-  <footer>Made by Jaden Shek</footer>
+  <div class="main-content">
+    <router-view />
+  
+    <footer>Made by Jaden Shek</footer>
+    
+  </div>
 </template>
 
 <style>
@@ -68,6 +71,11 @@ p {
   color: #000000;
   text-align: left;
   font-size: 18px;
+}
+
+.main-content{
+  display: flex;
+  flex-direction: column;
 }
 
 footer {

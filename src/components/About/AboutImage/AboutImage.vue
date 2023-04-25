@@ -1,5 +1,5 @@
 <template>
-  <div><img src="./PFP.png" alt="" /></div>
+  <div><img src="./PFP.jpg" alt="" /></div>
 </template>
 
 <script>
