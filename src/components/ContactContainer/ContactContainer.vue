@@ -5,11 +5,28 @@
             <h3>shekjaden@gmail.com</h3>
         </div>
         <p>or you can find me on</p>
+        <div class="other-social">
+            <div class="flex-item">
+                <img :src="`${publicPath}SVGs/Discord_black.svg`" alt="Medium Icon"/>
+            </div>
+            <div class="flex-item">
+                <img :src="`${publicPath}SVGs/LinkedIN_black.svg`" alt="Medium Icon"/>
+            </div>
+            <div class="flex-item">
+                <img :src="`${publicPath}SVGs/Medium_black.svg`" alt="Medium Icon"/>
+            </div>
+        </div>
+
     </div>
 </template>
 <script>
 export default {
-    
+    name: "ContactContainer",
+    data(){
+        return{
+            publicPath: process.env.BASE_URL,
+        }
+    }
 }
 </script>
 <style scoped>
@@ -39,6 +56,16 @@ export default {
   letter-spacing: 0.15em;
 
   color: #d7ecc9;
+}
+
+.other-social{
+    display: flex;
+    width:20%;
+    margin: auto;
+}
+
+.flex-item{
+    width:30%;
 }
 
     

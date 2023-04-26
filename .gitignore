@@ -2,7 +2,7 @@
 node_modules
 /dist
 
-
+/public/SVGs
 /src/assets/temp
 /src/components/About/AboutImage/PFP.*
 
