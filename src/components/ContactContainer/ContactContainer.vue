@@ -60,13 +60,18 @@ export default {
 
 .other-social{
     display: flex;
-    width:20%;
+    width: clamp(100px,30%,300px);
     margin: auto;
+    align-items: left;
 }
 
 .flex-item{
-    width:30%;
+    width:clamp(10px,30%,60px);
+    padding: 0;
+    margin:auto
 }
 
-    
+.flex-item img{
+    width: min(60px,5vw)
+}
 </style>
