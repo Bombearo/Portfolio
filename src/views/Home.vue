@@ -20,7 +20,7 @@ export default {
     AboutContainer,
     GithubDesc,
     MidCard,
-    ContactContainer
+    ContactContainer,
   },
 };
 </script>

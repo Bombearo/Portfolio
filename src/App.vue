@@ -2,9 +2,8 @@
   <div id="nav"><router-link to="/">Home</router-link> |</div>
   <div class="main-content">
     <router-view />
-  
+
     <footer>Made by Jaden Shek</footer>
-    
   </div>
 </template>
 
@@ -73,7 +72,7 @@ p {
   font-size: 18px;
 }
 
-.main-content{
+.main-content {
   display: flex;
   flex-direction: column;
 }
