@@ -27,15 +27,17 @@ div {
   background-size: cover;
   position: relative;
   z-index: -1;
-  right: clamp(3rem, 5.5vw, 15rem);
 }
 img {
   width: 100%;
+  margin: 0;
+  
 }
 @media screen and (max-width: 1024px) {
   div {
     width: 100%;
     height: 100%;
+
   }
 }
 </style>

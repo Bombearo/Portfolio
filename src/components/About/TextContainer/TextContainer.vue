@@ -25,6 +25,9 @@ export default {
   border: 20px solid #657f56;
   border-radius: 10px;
   padding: 1rem;
+  width: 80%;
+  margin:auto;
+  position: relative;
 }
 
 @media screen and (min-width: 1024px) {

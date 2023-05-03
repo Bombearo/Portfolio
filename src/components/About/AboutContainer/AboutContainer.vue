@@ -2,14 +2,10 @@
   <div class="AboutSection">
     <SectionContainer>
       <template v-slot:content>
-        <div class="about-desc">
           <TextContainer> </TextContainer>
-        </div>
       </template>
       <template v-slot:media>
-        <div class="image">
           <AboutImage src="../../assets/temp/PFP.jpg" />
-        </div>
       </template>
     </SectionContainer>
   </div>
