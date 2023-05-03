@@ -5,25 +5,39 @@
       <h3>shekjaden@gmail.com</h3>
     </div>
     <p>or you can find me on</p>
+
     <div class="other-social">
-      <div class="flex-item">
-        <img :src="`${publicPath}SVGs/Discord_black.svg`" alt="Medium Icon" />
-      </div>
-      <div class="flex-item">
-        <img :src="`${publicPath}SVGs/LinkedIN_black.svg`" alt="Medium Icon" />
-      </div>
-      <div class="flex-item">
-        <img :src="`${publicPath}SVGs/Medium_black.svg`" alt="Medium Icon" />
-      </div>
+        <div v-for="socialItem in socialItems" :key="socialItem.path" class="flex-item">
+            <SocialItem :svgPath="socialItem.path" :altText="socialItem.alt" />
+        </div>
     </div>
   </div>
 </template>
 <script>
+import SocialItem from './SocialItem.vue';
+
+let publicPath = process.env.BASE_URL
+let items = [];
+items.push({
+    path:`${publicPath}SVGs/Discord_black.svg`,
+    alt:"Discord Icon"
+});
+items.push({
+    path:`${publicPath}SVGs/LinkedIN_black.svg`,
+    alt:"LinkedIn Icon"
+});
+items.push({
+    path:`${publicPath}SVGs/Medium_black.svg`,
+    alt:"Medium Icon"
+});
+
 export default {
   name: "ContactContainer",
+  components:{SocialItem},
   data() {
     return {
-      publicPath: process.env.BASE_URL,
+      socialItems: items,
+      publicPath:process.env.BASE_URL
     };
   },
 };
