@@ -25,5 +25,9 @@ export default {
 <style scoped>
 .AboutSection {
   position: relative;
+  background: linear-gradient(#FFF,#D7ECC9);
+  z-index: -3;
+  width:100%;
+  padding:1em;
 }
 </style>
