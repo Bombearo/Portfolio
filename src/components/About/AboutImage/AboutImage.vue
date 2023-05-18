@@ -22,7 +22,7 @@ export default {
 <style scoped>
 div {
   overflow: hidden;
-  width: 701px;
+  width: clamp(10em,40vw,701px);
   border-radius: 63px;
   background-size: cover;
   position: relative;

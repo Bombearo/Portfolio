@@ -25,17 +25,25 @@ export default {
   border: 20px solid #657f56;
   border-radius: 10px;
   padding: 1rem;
-  width: 80%;
-  margin:auto;
-  position: relative;
+  width: 100%;
+
 }
 
 @media screen and (min-width: 1024px) {
   .container {
     position: absolute;
-    width: clamp(30rem, 45vw, 40rem);
+    width: clamp(30rem, 40vw, 50rem);
+
+    left: clamp(1rem, 2vw, 10rem);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    position: absolute;
+    width: clamp(30rem, 45vw, 45rem);
     top: clamp(5rem, 50%, 10rem);
-    left: clamp(1rem, 4.5vw, 10rem);
+    left: max(1rem, 7vw);
   }
 }
 
@@ -44,7 +52,8 @@ export default {
     position: absolute;
     width: clamp(30rem, 45vw, 45rem);
     top: clamp(5rem, 50%, 10rem);
-    left: clamp(1rem, 7.5vw, 10rem);
+    left: clamp(5rem,20vw,30rem);
   }
 }
+
 </style>
