@@ -28,6 +28,7 @@ h4 {
   letter-spacing: 0.15em;
 
   text-transform: uppercase;
+  margin: .75em 0 0 0;
 }
 p {
   font-family: montserrat;
