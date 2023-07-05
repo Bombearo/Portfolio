@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "storybook": "^7.0.25",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
@@ -20,6 +21,7 @@
     "@storybook/addon-actions": "^6.4.9",
     "@storybook/addon-essentials": "^6.4.9",
     "@storybook/addon-links": "^6.4.9",
+    "@storybook/cli": "^7.0.25",
     "@storybook/vue3": "^7.0.7",
     "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-plugin-eslint": "^5.0.8",
