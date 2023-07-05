@@ -101,7 +101,7 @@ p {
 .container {
   position: absolute;
   width: max(30%, 30rem);
-  height: 820px;
+  height:80%;
   left: clamp(5em, 10vw, 20em);
   top: 33px;
 
@@ -138,8 +138,8 @@ p {
 .img-container {
   border-radius: 100%;
   overflow: hidden;
-  width: 70%;
   margin: auto;
+  width:50%;
 
   filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
 }

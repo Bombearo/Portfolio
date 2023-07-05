@@ -43,7 +43,7 @@ export default {
     position: absolute;
     width: clamp(30rem, 45vw, 45rem);
     top: clamp(5rem, 50%, 10rem);
-    left: max(1rem, 7vw);
+    left: max(1rem, 5vw);
   }
 }
 
@@ -52,7 +52,7 @@ export default {
     position: absolute;
     width: clamp(30rem, 45vw, 45rem);
     top: clamp(5rem, 50%, 10rem);
-    left: clamp(5rem,20vw,30rem);
+    left: clamp(5rem,15vw,30rem);
   }
 }
 
