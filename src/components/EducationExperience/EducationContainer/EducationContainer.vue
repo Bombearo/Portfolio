@@ -2,12 +2,17 @@
   <div class="EducationContainer">
     <h4>Education</h4>
     <EducationItem
-      year="2021-2025 (Expected)"
-      location="BSc Computer Science University of Edinburgh"
+      startYear="2021"
+      endYear="2025"
+      subtext="(Expected)"
+      qualification="BSc Computer Science"
+      qualInfo="University of Edinburgh"
     />
     <EducationItem
-      year="2020-2021"
-      location="Advanced Highers Including As in Computing, Maths"
+      startYear="2020"
+      endYear="2021"
+      qualification="Advanced Highers"
+      qualInfo="Including As in Computing, Maths"
     />
   </div>
 </template>
@@ -19,6 +24,10 @@ export default {
 };
 </script>
 <style>
+h4 {
+  text-transform: uppercase;
+}
+
 .EducationContainer {
   width: 80%;
   margin: auto;
