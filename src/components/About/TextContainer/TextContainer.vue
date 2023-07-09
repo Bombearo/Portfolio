@@ -26,7 +26,6 @@ export default {
   border-radius: 10px;
   padding: 1rem;
   width: 100%;
-
 }
 
 @media screen and (min-width: 1024px) {
@@ -52,8 +51,7 @@ export default {
     position: absolute;
     width: clamp(30rem, 45vw, 45rem);
     top: clamp(5rem, 50%, 10rem);
-    left: clamp(5rem,15vw,30rem);
+    left: clamp(5rem, 15vw, 30rem);
   }
 }
-
 </style>

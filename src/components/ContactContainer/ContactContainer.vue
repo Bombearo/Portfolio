@@ -7,37 +7,41 @@
     <p>or you can find me on</p>
 
     <div class="other-social">
-        <div v-for="socialItem in socialItems" :key="socialItem.path" class="flex-item">
-            <SocialItem :svgPath="socialItem.path" :altText="socialItem.alt" />
-        </div>
+      <div
+        v-for="socialItem in socialItems"
+        :key="socialItem.path"
+        class="flex-item"
+      >
+        <SocialItem :svgPath="socialItem.path" :altText="socialItem.alt" />
+      </div>
     </div>
   </div>
 </template>
 <script>
-import SocialItem from './SocialItem.vue';
+import SocialItem from "./SocialItem.vue";
 
-let publicPath = process.env.BASE_URL
+let publicPath = process.env.BASE_URL;
 let items = [];
 items.push({
-    path:`${publicPath}SVGs/Discord_black.svg`,
-    alt:"Discord Icon"
+  path: `${publicPath}SVGs/Discord_black.svg`,
+  alt: "Discord Icon",
 });
 items.push({
-    path:`${publicPath}SVGs/LinkedIN_black.svg`,
-    alt:"LinkedIn Icon"
+  path: `${publicPath}SVGs/LinkedIN_black.svg`,
+  alt: "LinkedIn Icon",
 });
 items.push({
-    path:`${publicPath}SVGs/Medium_black.svg`,
-    alt:"Medium Icon"
+  path: `${publicPath}SVGs/Medium_black.svg`,
+  alt: "Medium Icon",
 });
 
 export default {
   name: "ContactContainer",
-  components:{SocialItem},
+  components: { SocialItem },
   data() {
     return {
       socialItems: items,
-      publicPath:process.env.BASE_URL
+      publicPath: process.env.BASE_URL,
     };
   },
 };

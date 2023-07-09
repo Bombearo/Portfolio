@@ -3,7 +3,7 @@
     <AboutContainer />
     <MidCard />
     <GithubDesc />
-    <EducationExperienceContainer/>
+    <EducationExperienceContainer />
     <ContactContainer />
   </div>
 </template>
@@ -23,12 +23,9 @@ export default {
     GithubDesc,
     MidCard,
     ContactContainer,
-    EducationExperienceContainer
+    EducationExperienceContainer,
   },
 };
 </script>
 
-<style>
-
-
-</style>
+<style></style>

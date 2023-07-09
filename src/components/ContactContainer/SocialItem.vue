@@ -1,5 +1,5 @@
 <template>
-    <img :src="svgPath" :alt="altText" />
+  <img :src="svgPath" :alt="altText" />
 </template>
 <script>
 export default {

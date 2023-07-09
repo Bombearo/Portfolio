@@ -2,10 +2,10 @@
   <div class="AboutSection">
     <SectionContainer>
       <template v-slot:content>
-          <TextContainer> </TextContainer>
+        <TextContainer> </TextContainer>
       </template>
       <template v-slot:media>
-          <AboutImage src="../../assets/temp/PFP.jpg" />
+        <AboutImage src="../../assets/temp/PFP.jpg" />
       </template>
     </SectionContainer>
   </div>
@@ -25,9 +25,9 @@ export default {
 <style scoped>
 .AboutSection {
   position: relative;
-  background: linear-gradient(#FFF,#D7ECC9);
+  background: linear-gradient(#fff, #d7ecc9);
   z-index: -3;
-  width:100%;
-  padding:1em;
+  width: 100%;
+  padding: 1em;
 }
 </style>
