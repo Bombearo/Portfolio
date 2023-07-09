@@ -1,12 +1,12 @@
 <template lang="">
-    <div class="workItem">
+    <div class="EducationItem">
         <div class="year"> {{year}} </div>
         <div class="location"> {{location}}</div>
     </div>
 </template>
 <script>
 export default {
-    name:"WorkItem",
+    name:"EducationItem",
     props: {
     year: { type: String },
     location: { type: String },
@@ -14,7 +14,7 @@ export default {
 }
 </script>
 <style>
-.workItem{
+.EducationItem{
     border-radius: 15px;
     border: 3px solid #657F56;
 }
