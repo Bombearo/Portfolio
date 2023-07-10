@@ -28,4 +28,12 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+h4{
+  font-size: clamp(1.5rem, 1.09090909091rem + 1.51515151515vw , 2rem);
+  text-transform: uppercase;
+}
+p{
+  font-size: clamp(.9rem, 0.818181818182rem + 0.30303030303vw, 1rem);
+}
+</style>

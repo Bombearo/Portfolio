@@ -30,8 +30,6 @@ p {
 
   font-style: normal;
   font-weight: 600;
-  font-size: clamp(1.25rem, 1.5vw, 1.75rem);
-  line-height: 44px;
   text-align: center;
   letter-spacing: 0.15em;
 
@@ -41,7 +39,7 @@ h3 {
   font-family: montserrat-semiBold;
   font-style: normal;
   font-weight: 600;
-  font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+  font-size: clamp(1rem, 0.836363636364rem + 0.606060606061vw , 1.2rem);
   line-height: 44px;
 
   /* identical to box height */
