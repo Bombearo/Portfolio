@@ -76,18 +76,18 @@ h3 {
 
 .other-social {
   display: flex;
-  width: clamp(100px, 30%, 300px);
   margin: auto;
   align-items: left;
+  max-width: 350px;
 }
 
 .flex-item {
-  width: clamp(10px, 30%, 60px);
+  width: clamp(60px, 30%, 100px);
   padding: 0;
   margin: auto;
 }
 
 .flex-item img {
-  width: min(60px, 5vw);
+  width: clamp(60px,2vw,80px);
 }
 </style>
