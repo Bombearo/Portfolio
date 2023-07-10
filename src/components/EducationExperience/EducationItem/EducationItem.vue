@@ -33,6 +33,7 @@ export default {
   display: flex;
   justify-content: space-between;
   height: max(5vh, 100px);
+  margin: 20px;
 }
 
 .year {
@@ -58,7 +59,7 @@ export default {
 .qualificationContainer {
   display: flex;
   flex-direction: column;
-  flex-shrink: 0;
+  flex-grow: 1;
 
   color: #000;
   text-align: right;
@@ -83,5 +84,19 @@ export default {
   font-size: clamp(0.4em, 0.6em + 0.5vw, 1em);
   flex-wrap: wrap;
   justify-content: end;
+}
+
+@media screen and (max-width: 1024px) {
+  .year {
+    font-size: clamp(0.8em, 0.8em + 0.5vw, 1.2em);
+  }
+
+  .qualification {
+    font-size: clamp(1.25em, 1.25em + 0.5vw, 2.5em);
+  }
+
+  .qualInfo {
+    font-size: clamp(1em, 1em + 0.5vw, 1.5em);
+  }
 }
 </style>

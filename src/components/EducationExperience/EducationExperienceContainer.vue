@@ -1,5 +1,5 @@
 <template>
-  <SectionContainer>
+  <SectionContainer :content-width="40">
     <template v-slot:content>
       <EducationContainer />
     </template>

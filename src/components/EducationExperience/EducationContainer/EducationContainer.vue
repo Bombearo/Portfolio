@@ -29,13 +29,7 @@ h4 {
 }
 
 .EducationContainer {
-  width: 80%;
+  width: 100%;
   margin: auto;
-}
-
-@media screen and (max-width: 1024px) {
-  .EducationContainer {
-    width: 100%;
-  }
 }
 </style>

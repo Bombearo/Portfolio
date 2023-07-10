@@ -27,6 +27,16 @@ export default {
       type: Boolean,
       default: false,
     },
+    contentWidth: {
+      type: Number,
+      default: 50,
+    },
+  },
+  data() {
+    return {
+      mediaW: `${100 - this.contentWidth - 5}%`,
+      contentW: `${this.contentWidth - 5}%`,
+    };
   },
 };
 </script>
@@ -45,13 +55,13 @@ export default {
 
 .content {
   display: flex;
-  width: 50%;
+  width: v-bind(contentW);
   align-items: center;
   justify-content: space-between;
 }
 
 .media {
-  width: 50%;
+  width: v-bind(mediaW);
 }
 
 @media screen and (max-width: 1024px) {
