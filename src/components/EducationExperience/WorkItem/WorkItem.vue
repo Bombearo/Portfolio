@@ -62,16 +62,16 @@ export default {
 }
 
 .title {
-  font-size: clamp(1.25rem, 0.840909090909rem + 1.51515151515vw , 1.75rem);
-  /*font-size: 28px;*/
+    font-size: clamp(1rem, 0.836363636364rem + 0.606060606061vw , 1.2rem);
   font-style: italic;
   font-weight: 500;
 
   grid-area: title;
+  align-self: center;
 }
 
 .description {
-  font-size: clamp(0.8rem, 0.534090909091rem + 0.984848484848vw, 1.125rem);
+  font-size: clamp(.9rem, 0.818181818182rem + 0.30303030303vw, 1rem);
   font-style: normal;
   font-weight: 400;
   grid-area: description;
