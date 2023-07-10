@@ -1,0 +1,28 @@
+[
+    {
+        "startYear":"2021",
+        "endYear":"2025",
+        "subtext":"(Expected)",
+        "qualification":"BSc Computer Science",
+        "qualInfo":"The University of Edinburgh"
+    },
+    {
+        "startYear":"2020",
+        "endYear":"2021",
+        "qualification":"Advanced Higher",
+        "qualInfo":"Including As in Computer Science and Maths"
+    },
+    {
+        "startYear":"2019",
+        "endYear":"2020",
+        "qualification":"Highers",
+        "qualInfo":"Including As in Computer Science and Maths"
+    },
+    {
+        "startYear":"2018",
+        "endYear":"2019",
+        "qualification":"National 5",
+        "qualInfo":"Including As in Computer Science and Maths"
+    }
+
+]

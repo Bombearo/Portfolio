@@ -1,26 +1,21 @@
 <template lang="">
   <div class="EducationContainer">
     <h4>Education</h4>
-    <EducationItem
-      startYear="2021"
-      endYear="2025"
-      subtext="(Expected)"
-      qualification="BSc Computer Science"
-      qualInfo="University of Edinburgh"
-    />
-    <EducationItem
-      startYear="2020"
-      endYear="2021"
-      qualification="Advanced Highers"
-      qualInfo="Including As in Computing, Maths"
-    />
+    <EducationItem v-for="item in education" :key="item" v-bind="item" />
   </div>
 </template>
 <script>
 import EducationItem from "../EducationItem/EducationItem.vue";
+import educationData from "@/assets/api/education.json"
+
 export default {
   name: "EducationContainer",
   components: { EducationItem },
+  data(){
+    return{
+        education:educationData
+    }
+  }
 };
 </script>
 <style>
