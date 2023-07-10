@@ -29,6 +29,7 @@ export default {
   grid-template-areas:
     "year title"
     ". description";
+  margin-bottom: 20px;
 }
 
 .year {
@@ -61,7 +62,8 @@ export default {
 }
 
 .title {
-  font-size: 28px;
+  font-size: clamp(1.25rem, 0.840909090909rem + 1.51515151515vw , 1.75rem);
+  /*font-size: 28px;*/
   font-style: italic;
   font-weight: 500;
 
@@ -69,9 +71,13 @@ export default {
 }
 
 .description {
-  font-size: 18px;
+  font-size: clamp(0.8rem, 0.534090909091rem + 0.984848484848vw, 1.125rem);
   font-style: normal;
   font-weight: 400;
   grid-area: description;
+}
+
+@media screen {
+    
 }
 </style>
