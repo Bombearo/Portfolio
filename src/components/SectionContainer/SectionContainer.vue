@@ -71,7 +71,6 @@ export default {
 @media screen and (max-width: 1024px) {
   .section {
     flex-direction: column;
-    margin: auto;
     align-items: center;
     justify-content: center;
   }

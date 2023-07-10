@@ -108,9 +108,10 @@ p {
   background: #ffffff;
   border: 10px solid #82a070;
   box-sizing: border-box;
-  box-shadow: 4px 24px 7px rgba(215, 236, 201, 0.53);
+  box-shadow: 4px 20px 7px rgba(215, 236, 201, 0.53);
   border-radius: 55px;
   padding: 20px;
+  margin-bottom: 5vh;
 }
 
 .container:hover {
