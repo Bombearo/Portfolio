@@ -33,7 +33,7 @@ export default {
   display: flex;
   justify-content: space-between;
   height: max(5vh, 100px);
-  margin: 20px;
+  margin-bottom: 20px;
 }
 
 .year {

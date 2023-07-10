@@ -31,6 +31,10 @@ export default {
       type: Number,
       default: 50,
     },
+    alignCenter: {
+      type: String,
+      default: "center",
+    },
   },
   data() {
     return {
@@ -56,7 +60,7 @@ export default {
 .content {
   display: flex;
   width: v-bind(contentW);
-  align-items: center;
+  align-items: v-bind(alignCenter);
   justify-content: space-between;
 }
 

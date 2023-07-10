@@ -1,22 +1,34 @@
 <template lang="">
   <div class="workItem">
-    <div class="year">{{ year }}</div>
-    <div class="location">{{ location }}</div>
+    <div class="year">{{ startYear }}-{{ endYear }}</div>
+    <div class="title">
+      {{ title }}
+    </div>
+    <div class="description">
+      {{ description }}
+    </div>
   </div>
 </template>
 <script>
 export default {
   name: "WorkItem",
   props: {
-    year: { type: String },
-    location: { type: String },
+    startYear: { type: String },
+    endYear: { type: String },
+    title: { type: String },
+    description: { type: String },
   },
 };
 </script>
 <style>
 .workItem {
   border-radius: 15px;
-  border: 3px solid #657f56;
+  display: grid;
+  grid-template-columns: 25% auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "year title"
+    ". description";
 }
 
 .year {
@@ -27,20 +39,39 @@ export default {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+
+  flex-wrap: nowrap;
+  min-width: 25%;
+  grid-area: year;
 }
 
-.location {
+.experience {
   display: flex;
-  width: 322px;
   flex-direction: column;
-  flex-shrink: 0;
+  flex-grow: 1;
 
+  text-align: left;
+}
+.title,
+.description {
   color: #000;
-  text-align: right;
   font-family: Montserrat;
+  line-height: normal;
+  text-align: left;
+}
+
+.title {
   font-size: 28px;
   font-style: italic;
+  font-weight: 500;
+
+  grid-area: title;
+}
+
+.description {
+  font-size: 18px;
+  font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  grid-area: description;
 }
 </style>

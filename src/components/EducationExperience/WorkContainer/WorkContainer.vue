@@ -1,12 +1,17 @@
 <template lang="">
   <div>
+    <h4>Experience</h4>
     <WorkItem
-      year="2021-2025 (Expected)"
-      location="BSc Computer Science University of Edinburgh"
+      startYear="2021"
+      endYear="Current"
+      title="Volunteering as a STEM Ambassador"
+      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac adipiscing massa est sit. Dictum eu turpis enim ullamcorper rutrum euismod. Nisi, commodo netus sed rhoncus amet. Porttitor tincidunt nunc magna blandit ullamcorper."
     />
     <WorkItem
-      year="2020-2021"
-      location="Advanced Highers Including As in Computing, Maths"
+      startYear="2021"
+      endYear="Current"
+      title="Volunteering as a STEM Ambassador"
+      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac adipiscing massa est sit. Dictum eu turpis enim ullamcorper rutrum euismod. Nisi, commodo netus sed rhoncus amet. Porttitor tincidunt nunc magna blandit ullamcorper."
     />
   </div>
 </template>

@@ -30,6 +30,6 @@ h4 {
 
 .EducationContainer {
   width: 100%;
-  margin: auto;
+  margin: 0;
 }
 </style>
