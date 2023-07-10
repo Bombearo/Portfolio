@@ -35,7 +35,4 @@ h2{
     font-size: clamp(1rem, 0.181818181819rem + 3.0303030303vw,2rem);
 }
 
-h3{
-
-}
 </style>
