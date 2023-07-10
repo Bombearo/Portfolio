@@ -75,28 +75,15 @@ export default {
 }
 
 .qualification {
-  font-size: clamp(0.5em, 0.7em + 0.5vw, 1.25em);
-  flex-wrap: wrap;
+    font-size: clamp(1rem, 0.836363636364rem + 0.606060606061vw , 1.2rem);
+    flex-wrap: wrap;
 }
 
 .qualInfo {
   display: flex;
-  font-size: clamp(0.4em, 0.6em + 0.5vw, 1em);
+  font-size: clamp(.9rem, 0.818181818182rem + 0.30303030303vw, 1rem);
   flex-wrap: wrap;
   justify-content: end;
 }
 
-@media screen and (max-width: 1024px) {
-  .year {
-    font-size: clamp(0.8em, 0.8em + 0.5vw, 1.2em);
-  }
-
-  .qualification {
-    font-size: clamp(1.25em, 1.25em + 0.5vw, 2.5em);
-  }
-
-  .qualInfo {
-    font-size: clamp(1em, 1em + 0.5vw, 1.5em);
-  }
-}
 </style>

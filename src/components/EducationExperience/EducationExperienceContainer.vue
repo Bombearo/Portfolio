@@ -1,5 +1,5 @@
 <template>
-  <SectionContainer :content-width="40" align-center="flex-start">
+  <SectionContainer :content-width="45" align-center="flex-start">
     <template v-slot:content>
       <EducationContainer />
     </template>
@@ -17,7 +17,7 @@ export default {
   components: { WorkContainer, EducationContainer, SectionContainer },
 };
 </script>
-<style>
+<style scoped>
 h4 {
   margin: 0;
 }
