@@ -1,21 +1,21 @@
 <template>
   <div class="container">
-    <AboutText
-      title="About Me"
-      subtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac adipiscing massa est sit. Dictum eu turpis enim ullamcorper rutrum euismod. Nisi, commodo netus sed rhoncus amet. Porttitor tincidunt nunc magna blandit ullamcorper."
-    />
-    <AboutText
-      title="Tutoring"
-      subtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac adipiscing massa est sit. Dictum eu turpis enim ullamcorper rutrum euismod. Nisi, commodo netus sed rhoncus amet. Porttitor tincidunt nunc magna blandit ullamcorper."
-    />
+    <AboutText v-for="content in aboutDetails" :key="content" v-bind="content"/>
+
   </div>
 </template>
 
 <script>
 import AboutText from "../AboutText/AboutText.vue";
+import about from "@/assets/api/about.json"
 export default {
   name: "TextContainer",
   components: { AboutText },
+  data(){
+    return{
+      aboutDetails:about
+    }
+  }
 };
 </script>
 
