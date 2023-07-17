@@ -1,7 +1,6 @@
 <template lang="">
     <div id="pageContainer">
         <PageButton buttonText="prev" @click="$emit('decrementCurrent')" :disabled="isStart"/>
-        {{currentPage}}
         <PageButton buttonText="next" @click="$emit('incrementCurrent')" :disabled="isEnd"/>
     </div>
 </template>

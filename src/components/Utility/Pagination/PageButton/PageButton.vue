@@ -1,6 +1,8 @@
 <template>
     <div>
-        <button :disabled="disabled">{{ buttonText }}</button>
+        <button :disabled="disabled">
+            {{ buttonText }}
+        </button>
     </div>
 </template>
 <script>
@@ -13,6 +15,12 @@ export default {
     }
 }
 </script>
-<style lang="">
-    
+<style>
+button{
+    border-radius: 1rem;
+    background-color: #657f56;
+    color: #b3cca3;
+    height:2.5rem;
+    width: 2.5rem;
+    }
 </style>

@@ -20,18 +20,17 @@
 <script>
 import SocialItem from "./SocialItem.vue";
 
-let publicPath = process.env.BASE_URL;
 let items = [];
 items.push({
-  path: `${publicPath}SVGs/Discord_black.svg`,
+  path: require(`@/assets/SVGs/Discord_black.svg`),
   alt: "Discord Icon",
 });
 items.push({
-  path: `${publicPath}SVGs/LinkedIN_black.svg`,
+  path: require(`@/assets/SVGs/LinkedIN_black.svg`),
   alt: "LinkedIn Icon",
 });
 items.push({
-  path: `${publicPath}SVGs/Medium_black.svg`,
+  path: require(`@/assets/SVGs/Medium_black.svg`),
   alt: "Medium Icon",
 });
 
