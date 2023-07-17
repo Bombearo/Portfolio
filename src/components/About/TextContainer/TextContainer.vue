@@ -28,7 +28,7 @@ export default {
   width: 100%;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1440px) {
   .container {
     position: absolute;
     width: clamp(30rem, 40vw, 50rem);
@@ -37,21 +37,7 @@ export default {
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .container {
-    position: absolute;
-    width: clamp(30rem, 45vw, 45rem);
-    top: clamp(5rem, 50%, 10rem);
-    left: max(1rem, 5vw);
-  }
-}
 
-@media screen and (min-width: 2000px) {
-  .container {
-    position: absolute;
-    width: clamp(30rem, 45vw, 45rem);
-    top: clamp(5rem, 50%, 10rem);
-    left: clamp(5rem, 15vw, 30rem);
-  }
-}
+
+
 </style>

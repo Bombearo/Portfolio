@@ -1,5 +1,5 @@
 <template>
-  <div><img :src="src" alt="" /></div>
+  <div class = "aboutImage"><img :src="src" alt="" /></div>
 </template>
 
 <script>
@@ -14,9 +14,9 @@ export default {
 </script>
 
 <style scoped>
-div {
+.aboutImage {
   overflow: hidden;
-  width: clamp(10em, 40vw, 701px);
+  width: 40vw;
   border-radius: 63px;
   background-size: cover;
   position: relative;
@@ -27,9 +27,15 @@ img {
   margin: 0;
 }
 @media screen and (max-width: 1024px) {
-  div {
+  .aboutImage {
     width: 100%;
     height: 100%;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .aboutImage{
+    right:2.5vw
   }
 }
 </style>
