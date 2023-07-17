@@ -5,7 +5,7 @@
         <TextContainer> </TextContainer>
       </template>
       <template v-slot:media>
-        <AboutImage src="../../assets/temp/PFP.jpg" />
+        <AboutImage :src="src" />
       </template>
     </SectionContainer>
   </div>
@@ -19,6 +19,11 @@ import TextContainer from "../TextContainer/TextContainer.vue";
 export default {
   name: "AboutContainer",
   components: { SectionContainer, AboutImage, TextContainer },
+  data(){
+    return{
+      src: require("@/assets/images/PFP.jpg")
+    }
+  }
 };
 </script>
 

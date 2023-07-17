@@ -1,5 +1,5 @@
 <template>
-  <div><img src="./PFP.jpg" alt="" /></div>
+  <div><img :src="src" alt="" /></div>
 </template>
 
 <script>
@@ -8,12 +8,6 @@ export default {
   props: {
     src: {
       type: String,
-    },
-  },
-  methods: {
-    getURL() {
-      console.log(this.src);
-      return require(this.src);
     },
   },
 };

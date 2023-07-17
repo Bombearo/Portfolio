@@ -14,8 +14,7 @@ import SectionContainer from "../SectionContainer/SectionContainer.vue"
 import WelcomeText from "./WelcomeText/WelcomeText.vue"
 import WelcomeGraphic from "./WelcomeGraphic/WelcomeGraphic.vue"
 
-let publicPath = process.env.BASE_URL;
-let svgPath =  `${publicPath}SVGs/HTML.svg`
+let svgPath =  require(`@/assets/SVGs/HTML.svg`)
 export default {
     name:"WelcomeContainer",
     components:{

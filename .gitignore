@@ -3,8 +3,7 @@ node_modules
 /dist
 
 /public/SVGs
-/src/assets/temp
-/src/components/About/AboutImage/PFP.*
+/src/assets/images/PFP.*
 
 # local env files
 .env.local
