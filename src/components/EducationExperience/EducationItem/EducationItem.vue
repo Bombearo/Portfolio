@@ -75,15 +75,14 @@ export default {
 }
 
 .qualification {
-    font-size: clamp(1rem, 0.836363636364rem + 0.606060606061vw , 1.2rem);
-    flex-wrap: wrap;
+  font-size: clamp(1rem, 0.836363636364rem + 0.606060606061vw, 1.2rem);
+  flex-wrap: wrap;
 }
 
 .qualInfo {
   display: flex;
-  font-size: clamp(.9rem, 0.818181818182rem + 0.30303030303vw, 1rem);
+  font-size: clamp(0.9rem, 0.818181818182rem + 0.30303030303vw, 1rem);
   flex-wrap: wrap;
   justify-content: end;
 }
-
 </style>

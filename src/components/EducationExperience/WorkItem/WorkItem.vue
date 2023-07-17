@@ -62,7 +62,7 @@ export default {
 }
 
 .title {
-    font-size: clamp(1rem, 0.836363636364rem + 0.606060606061vw , 1.2rem);
+  font-size: clamp(1rem, 0.836363636364rem + 0.606060606061vw, 1.2rem);
   font-style: italic;
   font-weight: 500;
 
@@ -71,13 +71,12 @@ export default {
 }
 
 .description {
-  font-size: clamp(.9rem, 0.818181818182rem + 0.30303030303vw, 1rem);
+  font-size: clamp(0.9rem, 0.818181818182rem + 0.30303030303vw, 1rem);
   font-style: normal;
   font-weight: 400;
   grid-area: description;
 }
 
 @media screen {
-    
 }
 </style>

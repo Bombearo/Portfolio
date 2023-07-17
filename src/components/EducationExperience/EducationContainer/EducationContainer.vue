@@ -6,16 +6,16 @@
 </template>
 <script>
 import EducationItem from "../EducationItem/EducationItem.vue";
-import educationData from "@/assets/api/education.json"
+import educationData from "@/assets/api/education.json";
 
 export default {
   name: "EducationContainer",
   components: { EducationItem },
-  data(){
-    return{
-        education:educationData
-    }
-  }
+  data() {
+    return {
+      education: educationData,
+    };
+  },
 };
 </script>
 <style>

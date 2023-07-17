@@ -26,17 +26,17 @@ export default {
     MidCard,
     ContactContainer,
     EducationExperienceContainer,
-    WelcomeContainer
+    WelcomeContainer,
   },
 };
 </script>
 
 <style>
-h4{
-  font-size: clamp(1.5rem, 1.09090909091rem + 1.51515151515vw , 2rem);
+h4 {
+  font-size: clamp(1.5rem, 1.09090909091rem + 1.51515151515vw, 2rem);
   text-transform: uppercase;
 }
-p{
-  font-size: clamp(.9rem, 0.818181818182rem + 0.30303030303vw, 1rem);
+p {
+  font-size: clamp(0.9rem, 0.818181818182rem + 0.30303030303vw, 1rem);
 }
 </style>

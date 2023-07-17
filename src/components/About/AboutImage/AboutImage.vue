@@ -1,5 +1,5 @@
 <template>
-  <div class = "aboutImage"><img :src="src" alt="" /></div>
+  <div class="aboutImage"><img :src="src" alt="" /></div>
 </template>
 
 <script>
@@ -33,9 +33,9 @@ img {
   }
 }
 
-@media screen and (min-width:1024px) {
-  .aboutImage{
-    right:2.5vw
+@media screen and (min-width: 1024px) {
+  .aboutImage {
+    right: 2.5vw;
   }
 }
 </style>

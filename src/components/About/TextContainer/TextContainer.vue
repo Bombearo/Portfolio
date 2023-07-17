@@ -36,8 +36,4 @@ export default {
     left: clamp(1rem, 2vw, 10rem);
   }
 }
-
-
-
-
 </style>

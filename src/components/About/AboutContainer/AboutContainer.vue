@@ -19,11 +19,11 @@ import TextContainer from "../TextContainer/TextContainer.vue";
 export default {
   name: "AboutContainer",
   components: { SectionContainer, AboutImage, TextContainer },
-  data(){
-    return{
-      src: require("@/assets/images/PFP.jpg")
-    }
-  }
+  data() {
+    return {
+      src: require("@/assets/images/PFP.jpg"),
+    };
+  },
 };
 </script>
 

@@ -39,7 +39,7 @@ h3 {
   font-family: montserrat-semiBold;
   font-style: normal;
   font-weight: 600;
-  font-size: clamp(1rem, 0.836363636364rem + 0.606060606061vw , 1.2rem);
+  font-size: clamp(1rem, 0.836363636364rem + 0.606060606061vw, 1.2rem);
   line-height: 44px;
 
   /* identical to box height */
