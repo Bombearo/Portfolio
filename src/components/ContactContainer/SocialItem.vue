@@ -1,5 +1,5 @@
 <template>
-  <img :src="svgPath" :alt="altText" />
+  <a :href="href" target="_blank"><img :src="svgPath" :alt="altText" /></a>
 </template>
 <script>
 export default {
@@ -7,6 +7,7 @@ export default {
   props: {
     svgPath: { type: String },
     altText: { type: String },
+    href: { type: String }
   },
 };
 </script>

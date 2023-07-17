@@ -1,9 +1,7 @@
 <template>
   <div>
     <h4>Contact Me</h4>
-    <div class="email">
-      <h3>shekjaden@gmail.com</h3>
-    </div>
+    <EmailItem :email="email" subject="Website Contact"/>
     <p>or you can find me on</p>
 
     <div class="other-social">
@@ -12,35 +10,40 @@
         :key="socialItem.path"
         class="flex-item"
       >
-        <SocialItem :svgPath="socialItem.path" :altText="socialItem.alt" />
+        <SocialItem :svgPath="socialItem.path" :altText="socialItem.alt" :href="socialItem.href"/>
       </div>
     </div>
   </div>
 </template>
 <script>
 import SocialItem from "./SocialItem.vue";
+import EmailItem from "../Utility/Email/EmailItem.vue";
+import links from "@/assets/api/links.json"
 
 let items = [];
 items.push({
   path: require(`@/assets/SVGs/Discord_black.svg`),
   alt: "Discord Icon",
+  href: links.discord
 });
 items.push({
   path: require(`@/assets/SVGs/LinkedIN_black.svg`),
   alt: "LinkedIn Icon",
+  href: links.linkedIn
 });
 items.push({
   path: require(`@/assets/SVGs/Medium_black.svg`),
   alt: "Medium Icon",
+  href: links.medium
 });
 
 export default {
   name: "ContactContainer",
-  components: { SocialItem },
+  components: { SocialItem, EmailItem},
   data() {
     return {
       socialItems: items,
-      publicPath: process.env.BASE_URL,
+      email:links.email
     };
   },
 };
@@ -59,19 +62,6 @@ p {
   text-align: center;
 }
 
-h3 {
-  font-family: montserrat-semiBold;
-  font-style: normal;
-  font-weight: 600;
-  font-size: clamp(0.9rem, 0.818181818182rem + 0.30303030303vw, 1rem);
-  line-height: 44px;
-
-  /* identical to box height */
-  text-align: center;
-  letter-spacing: 0.15em;
-
-  color: #d7ecc9;
-}
 
 .other-social {
   display: flex;

@@ -6,15 +6,22 @@
         at
       </p>
     </div>
-    <div class="email">
-      <h3>shekjaden@gmail.com</h3>
-    </div>
+    <EmailItem :email="email"/>
   </div>
 </template>
 
 <script>
+import EmailItem from '../Utility/Email/EmailItem.vue';
+import links from "@/assets/api/links.json"
+
 export default {
   name: "MidCard",
+  components:{EmailItem},
+  data(){
+    return{
+      "email":links.email
+    }
+  }
 };
 </script>
 
