@@ -3,16 +3,17 @@
     :disabled="disabled"
     :class="{ hovering: !disabled, disable: disabled }"
   >
-    {{ buttonText }}
+    <img :src="svgPath" :alt="buttonText"/>
   </button>
 </template>
 <script>
 export default {
   name: "PageButton",
   props: {
-    buttonText: { type: String },
+    buttonText: { type: String, default:""},
     colour: { type: String },
     disabled: { type: Boolean },
+    svgPath:{type:String}
   },
 };
 </script>
@@ -24,7 +25,13 @@ button {
   color: #b3cca3;
   height: 2.5rem;
   width: 2.5rem;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+
 
 .hovering:hover {
   color: #fff;
