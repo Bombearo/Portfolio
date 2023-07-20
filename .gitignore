@@ -2,9 +2,6 @@
 node_modules
 /dist
 
-/public/SVGs
-/src/assets/images/PFP.*
-
 # local env files
 .env.local
 .env.*.local
@@ -23,3 +20,6 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Local Netlify folder
+.netlify
