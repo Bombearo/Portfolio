@@ -18,6 +18,7 @@ export default {
 </script>
 <style scoped>
 button {
+  all:unset;
   border-radius: 1rem;
   background-color: #657f56;
   color: #b3cca3;
