@@ -66,6 +66,8 @@ export default {
 
 .media {
   width: v-bind(mediaW);
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (max-width: 1024px) {
