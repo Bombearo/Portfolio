@@ -17,6 +17,8 @@ export default {
   min-height: 20vh;
   text-align: left;
   margin-left: 30px;
+  position:absolute;
+  top:4rem;
 }
 
 h1,
