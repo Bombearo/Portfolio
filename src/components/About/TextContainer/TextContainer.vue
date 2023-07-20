@@ -31,7 +31,7 @@ export default {
   width: 100%;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1440px) and (min-width: 1024px){
   .container {
     position: absolute;
     width: clamp(30rem, 40vw, 50rem);
@@ -39,4 +39,6 @@ export default {
     left: clamp(1rem, 2vw, 10rem);
   }
 }
+
+
 </style>
