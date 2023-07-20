@@ -1,5 +1,4 @@
 <template>
-  {{ path }}
   <SectionContainer>
     <template v-slot:content>
       <WelcomeText />
