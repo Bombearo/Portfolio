@@ -1,21 +1,24 @@
 <template>
   <div class="container">
-    <AboutText v-for="content in aboutDetails" :key="content" v-bind="content"/>
-
+    <AboutText
+      v-for="content in aboutDetails"
+      :key="content"
+      v-bind="content"
+    />
   </div>
 </template>
 
 <script>
 import AboutText from "../AboutText/AboutText.vue";
-import about from "@/assets/api/about.json"
+import about from "@/assets/api/about.json";
 export default {
   name: "TextContainer",
   components: { AboutText },
-  data(){
-    return{
-      aboutDetails:about
-    }
-  }
+  data() {
+    return {
+      aboutDetails: about,
+    };
+  },
 };
 </script>
 

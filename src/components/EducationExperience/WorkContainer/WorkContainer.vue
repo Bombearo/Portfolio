@@ -36,7 +36,9 @@ export default {
       return this.current - 1 === 0;
     },
     isEnd() {
-      return this.current >= Math.ceil(this.experienceList.length / this.pageSize);
+      return (
+        this.current >= Math.ceil(this.experienceList.length / this.pageSize)
+      );
     },
     pageSize() {
       if (
@@ -50,7 +52,7 @@ export default {
   },
   methods: {
     paginated() {
-      return this.experienceList.slice(this.indexStart, this.indexEnd)
+      return this.experienceList.slice(this.indexStart, this.indexEnd);
     },
     onScreenResize() {
       window.addEventListener("resize", () => {

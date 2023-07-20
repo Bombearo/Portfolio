@@ -1,7 +1,7 @@
 <template>
   <div>
     <h4>Contact Me</h4>
-    <EmailItem :email="email" subject="Website Contact"/>
+    <EmailItem :email="email" subject="Website Contact" />
     <p>or you can find me on</p>
 
     <div class="other-social">
@@ -10,7 +10,11 @@
         :key="socialItem.path"
         class="flex-item"
       >
-        <SocialItem :svgPath="socialItem.path" :altText="socialItem.alt" :href="socialItem.href"/>
+        <SocialItem
+          :svgPath="socialItem.path"
+          :altText="socialItem.alt"
+          :href="socialItem.href"
+        />
       </div>
     </div>
   </div>
@@ -18,32 +22,32 @@
 <script>
 import SocialItem from "./SocialItem.vue";
 import EmailItem from "../Utility/Email/EmailItem.vue";
-import links from "@/assets/api/links.json"
+import links from "@/assets/api/links.json";
 
 let items = [];
 items.push({
   path: require(`@/assets/SVGs/Discord_black.svg`),
   alt: "Discord Icon",
-  href: links.discord
+  href: links.discord,
 });
 items.push({
   path: require(`@/assets/SVGs/LinkedIN_black.svg`),
   alt: "LinkedIn Icon",
-  href: links.linkedIn
+  href: links.linkedIn,
 });
 items.push({
   path: require(`@/assets/SVGs/Medium_black.svg`),
   alt: "Medium Icon",
-  href: links.medium
+  href: links.medium,
 });
 
 export default {
   name: "ContactContainer",
-  components: { SocialItem, EmailItem},
+  components: { SocialItem, EmailItem },
   data() {
     return {
       socialItems: items,
-      email:links.email
+      email: links.email,
     };
   },
 };
@@ -61,7 +65,6 @@ p {
   text-transform: uppercase;
   text-align: center;
 }
-
 
 .other-social {
   display: flex;

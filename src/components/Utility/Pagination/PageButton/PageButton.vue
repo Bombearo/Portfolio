@@ -1,7 +1,10 @@
 <template>
-    <button :disabled="disabled" :class="{hovering: !disabled, disable:disabled}">
-      {{ buttonText }}
-    </button>
+  <button
+    :disabled="disabled"
+    :class="{ hovering: !disabled, disable: disabled }"
+  >
+    {{ buttonText }}
+  </button>
 </template>
 <script>
 export default {
@@ -22,12 +25,12 @@ button {
   width: 2.5rem;
 }
 
-.hovering:hover{
-  color:#fff;
+.hovering:hover {
+  color: #fff;
   transform: scale(1.05);
 }
 
-.disable{
-    opacity: 50%;
+.disable {
+  opacity: 50%;
 }
 </style>

@@ -7,7 +7,7 @@ export default {
   props: {
     svgPath: { type: String },
     altText: { type: String },
-    href: { type: String }
+    href: { type: String },
   },
 };
 </script>

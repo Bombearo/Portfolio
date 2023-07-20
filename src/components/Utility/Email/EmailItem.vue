@@ -1,44 +1,41 @@
 <template lang="">
-    <div class="email">
-      <h3><a :href="mailto">{{email}}</a></h3>
-    </div>
+  <div class="email">
+    <h3>
+      <a :href="mailto">{{ email }}</a>
+    </h3>
+  </div>
 </template>
 <script>
 export default {
-    name:"emailItem",
-    props:{
-        email:{ type: String },
-        subject:{ type: String,
-        default:"Tutoring"}
-    },
-    data(){
-            return {mailto:`mailto:${this.email}?subject=${this.subject}`}
-    }
-}
+  name: "emailItem",
+  props: {
+    email: { type: String },
+    subject: { type: String, default: "Tutoring" },
+  },
+  data() {
+    return { mailto: `mailto:${this.email}?subject=${this.subject}` };
+  },
+};
 </script>
 <style>
-    a{
-        text-decoration: none;
-        color: #d7ecc9;
-    }
-
-    h3 {
-    font-family: montserrat-semiBold;
-    font-style: normal;
-    font-weight: 600;
-    font-size: clamp(0.9rem, 0.818181818182rem + 0.30303030303vw, 1rem);
-    line-height: 44px;
-
-    /* identical to box height */
-    text-align: center;
-    letter-spacing: 0.15em;
-
-
+a {
+  text-decoration: none;
+  color: #d7ecc9;
 }
 
-    a:hover{
-        color: #fff;
-    }
+h3 {
+  font-family: montserrat-semiBold;
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(0.9rem, 0.818181818182rem + 0.30303030303vw, 1rem);
+  line-height: 44px;
 
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.15em;
+}
 
+a:hover {
+  color: #fff;
+}
 </style>
