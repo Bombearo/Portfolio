@@ -36,10 +36,9 @@ export default {
       return this.current - 1 === 0;
     },
     isEnd() {
-      return this.current === Math.ceil(this.experienceList.length / 2);
+      return this.current >= Math.ceil(this.experienceList.length / this.pageSize);
     },
     pageSize() {
-      console.log(this.windowWidth);
       if (
         (this.windowWidth > 1500) |
         (this.windowWidth > 600 && this.windowWidth < 1024)
@@ -51,7 +50,7 @@ export default {
   },
   methods: {
     paginated() {
-      return this.experienceList.slice(this.indexStart, this.indexEnd);
+      return this.experienceList.slice(this.indexStart, this.indexEnd)
     },
     onScreenResize() {
       window.addEventListener("resize", () => {
