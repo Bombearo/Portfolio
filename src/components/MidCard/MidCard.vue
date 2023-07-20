@@ -12,7 +12,10 @@
 
 <script>
 import EmailItem from "../Utility/Email/EmailItem.vue";
-let links = require("@/assets/api/links.json");
+
+
+let links = await fetch(require("@/assets/api/links.json"))
+                    .then((response) => response.json());
 
 export default {
   name: "MidCard",
