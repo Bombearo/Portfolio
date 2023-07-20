@@ -1,6 +1,10 @@
 <template>
   <div id="WelcomeContainer">
-    <img class="backgroundImage" :src="backgroundImg" alt="Background Image appears here">
+    <img
+      class="backgroundImage"
+      :src="backgroundImg"
+      alt="Background Image appears here"
+    />
     <WelcomeText />
   </div>
 </template>
@@ -8,7 +12,7 @@
 import WelcomeText from "./WelcomeText/WelcomeText.vue";
 
 let svgPath = require(`@/assets/SVGs/HTML.svg`);
-let backgroundImg = require(`@/assets/images/WelcomeBackground.png`)
+let backgroundImg = require(`@/assets/images/WelcomeBackground.png`);
 export default {
   name: "WelcomeContainer",
   components: {
@@ -17,13 +21,13 @@ export default {
   data() {
     return {
       svgPath: svgPath,
-      backgroundImg:backgroundImg
+      backgroundImg: backgroundImg,
     };
   },
 };
 </script>
 <style>
-#WelcomeContainer{
+#WelcomeContainer {
   min-height: 100vh;
   background-size: cover;
   width: 100%;
@@ -34,21 +38,18 @@ export default {
   position: relative;
 }
 
-.backgroundImage{
+.backgroundImage {
   opacity: 0.6;
-  min-width:1440px;
+  min-width: 1440px;
 }
 
 @media screen and (max-width: 900px) {
-  #WelcomeContainer{
+  #WelcomeContainer {
     min-height: 90vh;
-    
   }
 
-  .backgroundImage{
+  .backgroundImage {
     min-width: 1024px;
   }
 }
-
-
 </style>

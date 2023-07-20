@@ -17,8 +17,8 @@ export default {
   min-height: 20vh;
   text-align: left;
   margin-left: 30px;
-  position:absolute;
-  top:4rem;
+  position: absolute;
+  top: 4rem;
 }
 
 h1,
@@ -30,7 +30,7 @@ h3 {
 }
 
 h1 {
-  color: #82a070;
+  color: #476039;
   text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   font-size: clamp(1.5rem, 0.272727272729rem + 4.54545454545vw, 3rem);
   font-weight: 700;

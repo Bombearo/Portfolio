@@ -10,7 +10,7 @@
           />
         </div>
       </template>
-      <template v-slot:media> <MediaGraphic :imagesrc="imagesrc"/> </template>
+      <template v-slot:media> <MediaGraphic :imagesrc="imagesrc" /> </template>
     </SectionContainer>
   </div>
 </template>
@@ -29,7 +29,7 @@ export default {
   data() {
     return {
       interestList: interests,
-      imagesrc:imagesrc
+      imagesrc: imagesrc,
     };
   },
 };

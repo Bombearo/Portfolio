@@ -26,7 +26,7 @@ export default {
     ContactContainer,
     EducationExperienceContainer,
     WelcomeContainer,
-    OnlineContainer
+    OnlineContainer,
   },
 };
 </script>
