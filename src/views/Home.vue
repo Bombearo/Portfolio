@@ -3,7 +3,7 @@
     <WelcomeContainer />
     <AboutContainer />
     <MidCard />
-    <GithubDesc />
+    <OnlineContainer />
     <EducationExperienceContainer />
     <ContactContainer />
   </div>
@@ -12,21 +12,21 @@
 <script>
 // @ is an alias to /src
 import AboutContainer from "@/components/About/AboutContainer/AboutContainer.vue";
-import GithubDesc from "@/components/Github/GithubDesc/GithubDesc.vue";
 import MidCard from "@/components/MidCard/MidCard.vue";
 import ContactContainer from "@/components/ContactContainer/ContactContainer.vue";
 import EducationExperienceContainer from "@/components/EducationExperience/EducationExperienceContainer.vue";
 import WelcomeContainer from "@/components/WelcomeContainer/WelcomeContainer.vue";
+import OnlineContainer from "../components/OnlinePresence/OnlineContainer/OnlineContainer.vue";
 
 export default {
   name: "HomePage",
   components: {
     AboutContainer,
-    GithubDesc,
     MidCard,
     ContactContainer,
     EducationExperienceContainer,
     WelcomeContainer,
+    OnlineContainer
   },
 };
 </script>

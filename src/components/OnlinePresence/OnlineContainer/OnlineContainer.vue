@@ -10,23 +10,26 @@
           />
         </div>
       </template>
-      <template v-slot:media> <GithubAbout /> </template>
+      <template v-slot:media> <MediaGraphic :imagesrc="imagesrc"/> </template>
     </SectionContainer>
   </div>
 </template>
 
 <script>
 import SectionContainer from "../../SectionContainer/SectionContainer.vue";
-import GithubAbout from "../GithubAbout/GithubAbout.vue";
 import ExperienceText from "../ExperienceText/ExperienceText.vue";
 import interests from "@/assets/api/interests.json";
+import MediaGraphic from "../../Utility/MediaGraphic/MediaGraphic.vue";
+
+let imagesrc = require("@/assets/images/HKGraphic.jpg");
 
 export default {
-  name: "GithubDesc",
-  components: { SectionContainer, GithubAbout, ExperienceText },
+  name: "OnlineContainer",
+  components: { SectionContainer, MediaGraphic, ExperienceText },
   data() {
     return {
       interestList: interests,
+      imagesrc:imagesrc
     };
   },
 };

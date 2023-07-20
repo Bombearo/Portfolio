@@ -30,7 +30,7 @@
 
 <script>
 export default {
-  name: "GithubAbout",
+  name: "OnlineAbout",
   methods: {
     getUser() {
       return {
