@@ -33,6 +33,6 @@ export default {
   background: linear-gradient(#fff, #d7ecc9);
   z-index: -3;
   width: 100%;
-  padding: 1em;
+  padding-bottom: 1rem;
 }
 </style>

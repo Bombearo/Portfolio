@@ -28,8 +28,8 @@ export default {
 <style scoped>
 .sectionContainer {
   background-color: #476039;
-  padding: max(1rem, 2vh);
   width: 100%;
+  padding: 1rem 0;
 }
 
 p {
