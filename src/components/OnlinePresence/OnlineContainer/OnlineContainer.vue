@@ -18,9 +18,9 @@
 <script>
 import SectionContainer from "../../SectionContainer/SectionContainer.vue";
 import ExperienceText from "../ExperienceText/ExperienceText.vue";
-import interests from "@/assets/api/interests.json";
 import MediaGraphic from "../../Utility/MediaGraphic/MediaGraphic.vue";
 
+let interests = require("@/assets/api/interests.json");
 let imagesrc = require("@/assets/images/HKGraphic.jpg");
 
 export default {

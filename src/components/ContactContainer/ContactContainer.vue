@@ -22,7 +22,9 @@
 <script>
 import SocialItem from "./SocialItem.vue";
 import EmailItem from "../Utility/Email/EmailItem.vue";
-import links from "@/assets/api/links.json";
+
+
+let links = require("@/assets/api/links.json")
 
 let items = [];
 items.push({

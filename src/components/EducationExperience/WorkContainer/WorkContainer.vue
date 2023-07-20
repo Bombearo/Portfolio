@@ -13,8 +13,10 @@
 </template>
 <script>
 import WorkItem from "../WorkItem/WorkItem.vue";
-import experience from "@/assets/api/experience.json";
 import PageContainer from "../../Utility/Pagination/PageContainer.vue";
+
+let experience = require("@/assets/api/experience.json");
+
 
 function compareYear(a, b) {
   return b.startYear - a.startYear;

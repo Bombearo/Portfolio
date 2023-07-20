@@ -10,7 +10,7 @@
 
 <script>
 import AboutText from "../AboutText/AboutText.vue";
-import about from "@/assets/api/about.json";
+let about = require("@/assets/api/about.json");
 export default {
   name: "TextContainer",
   components: { AboutText },

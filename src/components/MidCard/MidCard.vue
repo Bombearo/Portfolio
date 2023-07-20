@@ -12,7 +12,7 @@
 
 <script>
 import EmailItem from "../Utility/Email/EmailItem.vue";
-import links from "@/assets/api/links.json";
+let links = require("@/assets/api/links.json");
 
 export default {
   name: "MidCard",

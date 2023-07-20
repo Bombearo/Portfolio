@@ -6,7 +6,8 @@
 </template>
 <script>
 import EducationItem from "../EducationItem/EducationItem.vue";
-import educationData from "@/assets/api/education.json";
+
+let educationData = require("@/assets/api/education.json");
 
 export default {
   name: "EducationContainer",
