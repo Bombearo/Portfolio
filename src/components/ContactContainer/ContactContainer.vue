@@ -1,3 +1,4 @@
+
 <template> 
    <div> 
      <h4>Contact Me</h4> 
@@ -95,3 +96,26 @@
    font-size: clamp(.5rem,20vw,.6rem); 
  } 
  </style>
+
+  path: require(`@/assets/SVGs/Medium_black.svg`),
+  alt: "Medium",
+  href: links.medium,
+});
+
+items.push({
+  path: require(`@/assets/SVGs/Github.svg`),
+  alt: "Github",
+  href: links.github,
+});
+
+export default {
+  name: "ContactContainer",
+  components: { SocialItem, EmailItem },
+  data() {
+    return {
+      socialItems: items,
+      email: links.email,
+    };
+  },
+};
+</script>

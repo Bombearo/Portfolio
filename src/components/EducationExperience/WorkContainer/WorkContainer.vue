@@ -17,7 +17,6 @@ import PageContainer from "../../Utility/Pagination/PageContainer.vue";
 
 let experience = require("@/assets/api/experience.json");
 
-
 function compareYear(a, b) {
   return b.startYear - a.startYear;
 }
