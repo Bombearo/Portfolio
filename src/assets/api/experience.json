@@ -1,51 +1,28 @@
 [
     {
         "startYear":"2021",
-        "endYear":"2025",
-        "title":"Volunteering as a STEM Ambassador",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac adipiscing massa est sit. Dictum eu turpis enim ullamcorper rutrum euismod. Nisi, commodo netus sed rhoncus amet. Porttitor tincidunt nunc magna blandit ullamcorper."
-    },
-   
-    {
-        "startYear":"2021",
-        "endYear":"2025",
-        "title":"Volunteering as a STEM Ambassador",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac adipiscing massa est sit. Dictum eu turpis enim ullamcorper rutrum euismod. Nisi, commodo netus sed rhoncus amet. Porttitor tincidunt nunc magna blandit ullamcorper."
-    },
-   
-    {
-        "startYear":"2021",
-        "endYear":"2025",
-        "title":"Page Test",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac adipiscing massa est sit. Dictum eu turpis enim ullamcorper rutrum euismod. Nisi, commodo netus sed rhoncus amet. Porttitor tincidunt nunc magna blandit ullamcorper."
+        "endYear":"2022",
+        "title":"Edinburgh Award",
+        "description":"Participated in a volunteering scheme to tutor secondary school pupils who are in disadvantaged areas in Scotland. This award is given at the end of volunteering, and aims to help students with exam-level Computer Science so they have a better chance at achieving their potential. The student was able to achieve an A at Advanced Higher in 2022 as a result of having personalized tutoring."
     },
    
     {
         "startYear":"2022",
-        "endYear":"2025",
-        "title":"Volunteering as a STEM Ambassador",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac adipiscing massa est sit. Dictum eu turpis enim ullamcorper rutrum euismod. Nisi, commodo netus sed rhoncus amet. Porttitor tincidunt nunc magna blandit ullamcorper."
-    },
+        "endYear":"2022",
+        "title":"Edinburgh Award Co-Ordinator",
+        "description":"Co-ordinated and organised tutor sessions between tutors of the tutoring scheme with their respective students."},
    
     {
         "startYear":"2021",
-        "endYear":"2025",
-        "title":"Volunteering as a STEM Ambassador",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac adipiscing massa est sit. Dictum eu turpis enim ullamcorper rutrum euismod. Nisi, commodo netus sed rhoncus amet. Porttitor tincidunt nunc magna blandit ullamcorper."
+        "endYear":"Present",
+        "title":"Volunteer Computing Teaching Assistant",
+        "description":"Volunteered in at a secondary school and aided the teacher in various classes between S2 and S5 to help students who were struggling and developed interpersonal and communicative skills to teach and transfer information in a way the student can understand."
     },
-   
     {
-        "startYear":"2021",
-        "endYear":"2025",
-        "title":"Volunteering as a STEM Ambassador",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac adipiscing massa est sit. Dictum eu turpis enim ullamcorper rutrum euismod. Nisi, commodo netus sed rhoncus amet. Porttitor tincidunt nunc magna blandit ullamcorper."
-    },
-   
-    {
-        "startYear":"2021",
-        "endYear":"2025",
-        "title":"Volunteering as a STEM Ambassador",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac adipiscing massa est sit. Dictum eu turpis enim ullamcorper rutrum euismod. Nisi, commodo netus sed rhoncus amet. Porttitor tincidunt nunc magna blandit ullamcorper."
+        "startYear":"2019",
+        "endYear":"Present",
+        "title":"Online Forum and Discord helper",
+        "description":"Answers computing related questions on online forums and a discord server to help others on the internet understand concepts such as Object-Oriented Programming, frontend and backend development or general computing topics better."
     }
    
 
