@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h4>{{ title }}</h4>
+    <a :href="href"><h4 :class="{hovering:!!href}">{{ title }}</h4></a>
     <p>{{ text }}</p>
   </div>
 </template>
@@ -11,6 +11,7 @@ export default {
   props: {
     title: String,
     text: String,
+    href: String
   },
 };
 </script>
@@ -40,4 +41,12 @@ p {
 
   color: #000000;
 }
+a{
+  text-decoration: none;
+}
+
+.hovering:hover{
+  color:#804905
+}
+
 </style>
