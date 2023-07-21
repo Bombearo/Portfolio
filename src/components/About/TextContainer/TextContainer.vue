@@ -27,8 +27,9 @@ export default {
   background: #ffffff;
   border: 20px solid #657f56;
   border-radius: 10px;
-  padding: 1rem;
+  padding: .1rem .6rem;
   width: 100%;
+
 }
 
 @media screen and (max-width: 1440px) and (min-width: 1024px) {
