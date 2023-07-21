@@ -43,6 +43,12 @@ items.push({
   href: links.medium,
 });
 
+items.push({
+  path: require(`@/assets/SVGs/Github.svg`),
+  alt: "Github Icon",
+  href: links.github,
+});
+
 export default {
   name: "ContactContainer",
   components: { SocialItem, EmailItem },
