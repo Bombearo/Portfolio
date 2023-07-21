@@ -17,6 +17,7 @@
         />
       </div>
     </div>
+    <p class="credit">Icons sourced from <a href="https://iconmonstr.com">iconmonstr.com</a></p>
   </div>
 </template>
 <script>
@@ -89,5 +90,9 @@ p {
 
 .flex-item img {
   width: clamp(60px, 2vw, 80px);
+}
+
+.credit{
+  font-size: clamp(.5rem,20vw,.6rem);
 }
 </style>
