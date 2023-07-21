@@ -2,8 +2,9 @@
   <button
     :disabled="disabled"
     :class="{ hovering: !disabled, disable: disabled }"
+    :title="buttonText"
   >
-    <img :src="svgPath" :alt="buttonText" />
+    <img :src="svgPath" :alt="buttonAlt" />
   </button>
 </template>
 <script>
@@ -15,6 +16,11 @@ export default {
     disabled: { type: Boolean },
     svgPath: { type: String },
   },
+  computed:{
+    buttonAlt(){
+      return this.buttonText.slice(0,4)
+    }
+  }
 };
 </script>
 <style scoped>

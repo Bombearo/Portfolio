@@ -3,7 +3,10 @@
   <div class="main-content">
     <router-view />
 
-    <footer>Made by Jaden Shek</footer>
+    <footer>
+      <p class="credits">Made by Jaden Shek</p>
+      <a href="https://www.flaticon.com/free-icons/letter-j" title="letter j icons">Letter j icons created by Agung Rama - Flaticon</a>
+    </footer>
   </div>
 </template>
 
@@ -84,7 +87,17 @@ footer {
   font-family: montserrat, monospace;
   font-style: normal;
   font-weight: normal;
-  font-size: clamp(1rem, 2vw, 1.75rem);
+
+}
+
+
+.credits{
+  text-align: center;
+  color: white;
+  font-family: montserrat, monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: clamp(1rem, 2vw, 1.5rem);
   line-height: 22px;
 }
 </style>

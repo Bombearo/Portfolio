@@ -1,7 +1,7 @@
 <template lang="">
   <div class="email">
     <h3>
-      <a :href="mailto">{{ email }}</a>
+      <a :href="mailto" title="Click me to send me an email!">{{ email }}</a>
     </h3>
   </div>
 </template>

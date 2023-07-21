@@ -17,6 +17,7 @@
         />
       </div>
     </div>
+    <p class="credit">Icons sourced from <a href="https://iconmonstr.com">iconmonstr.com</a></p>
   </div>
 </template>
 <script>
@@ -28,18 +29,24 @@ let links = require("@/assets/api/links.json");
 let items = [];
 items.push({
   path: require(`@/assets/SVGs/Discord_black.svg`),
-  alt: "Discord Icon",
+  alt: "Discord",
   href: links.discord,
 });
 items.push({
   path: require(`@/assets/SVGs/LinkedIN_black.svg`),
-  alt: "LinkedIn Icon",
+  alt: "LinkedIn",
   href: links.linkedIn,
 });
 items.push({
   path: require(`@/assets/SVGs/Medium_black.svg`),
-  alt: "Medium Icon",
+  alt: "Medium",
   href: links.medium,
+});
+
+items.push({
+  path: require(`@/assets/SVGs/Github.svg`),
+  alt: "Github",
+  href: links.github,
 });
 
 export default {
@@ -82,5 +89,9 @@ p {
 
 .flex-item img {
   width: clamp(60px, 2vw, 80px);
+}
+
+.credit{
+  font-size: clamp(.5rem,20vw,.6rem);
 }
 </style>
