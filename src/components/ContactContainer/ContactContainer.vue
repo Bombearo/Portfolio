@@ -78,17 +78,17 @@ p {
   display: flex;
   margin: auto;
   align-items: left;
-  max-width: 350px;
+  max-width: 450px;
 }
 
 .flex-item {
-  width: clamp(60px, 30%, 100px);
+  width: clamp(40px, 30%, 100px);
   padding: 0;
   margin: auto;
 }
 
 .flex-item img {
-  width: clamp(60px, 2vw, 80px);
+  width: clamp(40px, 2vw, 80px);
 }
 
 .credit{
