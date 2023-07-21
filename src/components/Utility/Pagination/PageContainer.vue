@@ -1,13 +1,13 @@
 <template lang="">
   <div id="pageContainer">
     <PageButton
-      buttonText="prev"
+      buttonText="Previous Page"
       @click="$emit('decrementCurrent')"
       :disabled="isStart"
       :svgPath="leftArrow"
     />
     <PageButton
-      buttonText="next"
+      buttonText="Next Page"
       @click="$emit('incrementCurrent')"
       :disabled="isEnd"
       :svgPath="rightArrow"

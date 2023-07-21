@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a :href="href"><h4 :class="{hovering:!!href}">{{ title }}</h4></a>
+    <a :href="href" :title="tooltip"><h4 :class="{hovering:!!href}">{{ title }}</h4></a>
     <p>{{ text }}</p>
   </div>
 </template>
@@ -13,6 +13,11 @@ export default {
     text: String,
     href: String
   },
+  computed:{
+    tooltip(){
+      return `Click me to see my ${this.title}!`
+    }
+  }
 };
 </script>
 
