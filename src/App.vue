@@ -5,7 +5,11 @@
 
     <footer>
       <p class="credits">Made by Jaden Shek</p>
-      <a href="https://www.flaticon.com/free-icons/letter-j" title="letter j icons">Letter j icons created by Agung Rama - Flaticon</a>
+      <a
+        href="https://www.flaticon.com/free-icons/letter-j"
+        title="letter j icons"
+        >Letter j icons created by Agung Rama - Flaticon</a
+      >
     </footer>
   </div>
 </template>
@@ -87,11 +91,9 @@ footer {
   font-family: montserrat, monospace;
   font-style: normal;
   font-weight: normal;
-
 }
 
-
-.credits{
+.credits {
   text-align: center;
   color: white;
   font-family: montserrat, monospace;

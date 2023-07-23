@@ -1,6 +1,8 @@
 <template>
   <div>
-    <a :href="href" :title="tooltip"><h4 :class="{hovering:!!href}">{{ title }}</h4></a>
+    <a :href="href" :title="tooltip"
+      ><h4 :class="{ hovering: !!href }">{{ title }}</h4></a
+    >
     <p>{{ text }}</p>
   </div>
 </template>
@@ -11,13 +13,13 @@ export default {
   props: {
     title: String,
     text: String,
-    href: String
+    href: String,
   },
-  computed:{
-    tooltip(){
-      return `Click me to see my ${this.title}!`
-    }
-  }
+  computed: {
+    tooltip() {
+      return `Click me to see my ${this.title}!`;
+    },
+  },
 };
 </script>
 
@@ -46,12 +48,11 @@ p {
 
   color: #000000;
 }
-a{
+a {
   text-decoration: none;
 }
 
-.hovering:hover{
-  color:#804905
+.hovering:hover {
+  color: #804905;
 }
-
 </style>

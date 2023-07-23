@@ -22,7 +22,7 @@ import MediaGraphic from "../../Utility/MediaGraphic/MediaGraphic.vue";
 
 let interests = require("@/assets/api/interests.json");
 let imagesrc = require("@/assets/images/HKGraphic.jpg");
-let links = require("@/assets/api/links.json")
+let links = require("@/assets/api/links.json");
 
 export default {
   name: "OnlineContainer",
@@ -33,23 +33,23 @@ export default {
       imagesrc: imagesrc,
     };
   },
-  methods:{
-    getInterestList(){
-      interests.forEach(interest => {
-        switch (interest['title'].toLowerCase()){
+  methods: {
+    getInterestList() {
+      interests.forEach((interest) => {
+        switch (interest["title"].toLowerCase()) {
           case "github":
-            interest.href=links.github;
+            interest.href = links.github;
             break;
           case "article writing":
-            interest.href=links.medium;
+            interest.href = links.medium;
             break;
           default:
             break;
         }
       });
       return interests;
-    }
-  }
+    },
+  },
 };
 </script>
 
