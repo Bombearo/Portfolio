@@ -30,6 +30,7 @@ export default {
     "year title"
     ". description";
   margin-bottom: 20px;
+  max-height: 300px;
 }
 
 .year {

@@ -27,6 +27,5 @@ h4 {
 .EducationContainer {
   width: 100%;
   margin: 0;
-  min-height: 90vh;
 }
 </style>

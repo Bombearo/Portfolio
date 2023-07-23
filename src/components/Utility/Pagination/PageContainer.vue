@@ -43,6 +43,25 @@ export default {
   align-items: flex-end;
   justify-content: space-around;
   flex-grow: 1;
+
   min-width: 50%;
+  margin:1rem;
+  position: absolute;
+  top:650px;
+  left:10vw
+}
+
+@media screen and (max-width:900px) {
+  #pageContainer{
+    top:575px;
+    left:5vw;
+    width:75%;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  #pageContainer{
+    top:600px
+  }
 }
 </style>
