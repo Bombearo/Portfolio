@@ -50,8 +50,29 @@ export default {
   top:650px;
   left:10vw
 }
+@media screen and (max-width:1500px) {
+  #pageContainer{
+    top:600px;
+    left:10vw
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #pageContainer{
+    top:600px;
+    left:20vw;
+  }
+}
 
 @media screen and (max-width:900px) {
+  #pageContainer{
+    top:650px;
+    width:75%;
+    left:10vw
+  }
+}
+
+@media screen and (max-width:600px) {
   #pageContainer{
     top:575px;
     left:5vw;
@@ -59,9 +80,5 @@ export default {
   }
 }
 
-@media screen and (min-width:1440px) {
-  #pageContainer{
-    top:600px
-  }
-}
+
 </style>
