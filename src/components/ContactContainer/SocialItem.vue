@@ -24,4 +24,9 @@ export default {
   },
 };
 </script>
-<style lang=""></style>
+<style scoped>
+img {
+  width: clamp(40px, 12vw, 70px);
+  
+}
+</style>

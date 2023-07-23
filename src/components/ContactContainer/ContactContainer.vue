@@ -87,11 +87,10 @@ p {
   width: clamp(40px, 30%, 100px);
   padding: 0;
   margin: auto;
+  max-width: 25%;
 }
 
-.flex-item img {
-  width: clamp(40px, 2vw, 80px);
-}
+
 
 .credit {
   font-size: clamp(0.5rem, 20vw, 0.6rem);
