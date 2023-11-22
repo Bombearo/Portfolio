@@ -1,5 +1,5 @@
 <template>
-  <div><img src="./PFP.png" alt="" /></div>
+  <div class="aboutImage"><img :src="src" alt="" /></div>
 </template>
 
 <script>
@@ -10,32 +10,32 @@ export default {
       type: String,
     },
   },
-  methods: {
-    getURL() {
-      console.log(this.src);
-      return require(this.src);
-    },
-  },
 };
 </script>
 
 <style scoped>
-div {
+.aboutImage {
   overflow: hidden;
-  width: 701px;
+  width: 40vw;
   border-radius: 63px;
   background-size: cover;
   position: relative;
   z-index: -1;
-  right: clamp(3rem, 5.5vw, 15rem);
 }
 img {
   width: 100%;
+  margin: 0;
 }
 @media screen and (max-width: 1024px) {
-  div {
+  .aboutImage {
     width: 100%;
     height: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .aboutImage {
+    right: 2.5vw;
   }
 }
 </style>

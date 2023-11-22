@@ -1,8 +1,17 @@
 <template>
-  <div id="nav"><router-link to="/">Home</router-link> |</div>
-  <router-view />
+  <!--<div id="nav"><router-link to="/">Home</router-link> |</div> -->
+  <div class="main-content">
+    <router-view />
 
-  <footer>Made by Jaden Shek</footer>
+    <footer>
+      <p class="credits">Made by Jaden Shek</p>
+      <a
+        href="https://www.flaticon.com/free-icons/letter-j"
+        title="letter j icons"
+        >Letter j icons created by Agung Rama - Flaticon</a
+      >
+    </footer>
+  </div>
 </template>
 
 <style>
@@ -70,6 +79,11 @@ p {
   font-size: 18px;
 }
 
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+
 footer {
   background: #476039;
   color: white;
@@ -77,7 +91,15 @@ footer {
   font-family: montserrat, monospace;
   font-style: normal;
   font-weight: normal;
-  font-size: clamp(1rem, 2vw, 1.75rem);
+}
+
+.credits {
+  text-align: center;
+  color: white;
+  font-family: montserrat, monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: clamp(1rem, 2vw, 1.5rem);
   line-height: 22px;
 }
 </style>

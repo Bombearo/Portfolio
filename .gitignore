@@ -1,10 +1,6 @@
 .DS_Store
 node_modules
 /dist
-
-
-/src/assets/temp
-/src/components/About/AboutImage/PFP.png
 /src/assets/IMG_4685.png
 
 # local env files
@@ -25,3 +21,6 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Local Netlify folder
+.netlify

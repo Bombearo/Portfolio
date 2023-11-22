@@ -27,6 +27,20 @@ export default {
       type: Boolean,
       default: false,
     },
+    contentWidth: {
+      type: Number,
+      default: 50,
+    },
+    alignCenter: {
+      type: String,
+      default: "center",
+    },
+  },
+  data() {
+    return {
+      mediaW: `${100 - this.contentWidth - 5}%`,
+      contentW: `${this.contentWidth - 5}%`,
+    };
   },
 };
 </script>
@@ -34,7 +48,6 @@ export default {
 <style scoped>
 .section {
   display: flex;
-  width: 100%;
   justify-content: space-evenly;
   position: relative;
   margin-bottom: 5vh;
@@ -46,21 +59,23 @@ export default {
 
 .content {
   display: flex;
-  width: 50%;
-  align-items: center;
+  width: v-bind(contentW);
+  align-items: v-bind(alignCenter);
   justify-content: space-between;
 }
 
 .media {
-  width: 50%;
+  width: v-bind(mediaW);
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (max-width: 1024px) {
   .section {
     flex-direction: column;
-    margin: auto;
     align-items: center;
     justify-content: center;
+    margin: auto;
   }
   .content,
   .media {

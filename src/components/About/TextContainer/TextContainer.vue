@@ -1,21 +1,24 @@
 <template>
   <div class="container">
     <AboutText
-      title="About Me"
-      subtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac adipiscing massa est sit. Dictum eu turpis enim ullamcorper rutrum euismod. Nisi, commodo netus sed rhoncus amet. Porttitor tincidunt nunc magna blandit ullamcorper."
-    />
-    <AboutText
-      title="Tutoring"
-      subtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac adipiscing massa est sit. Dictum eu turpis enim ullamcorper rutrum euismod. Nisi, commodo netus sed rhoncus amet. Porttitor tincidunt nunc magna blandit ullamcorper."
+      v-for="content in aboutDetails"
+      :key="content"
+      v-bind="content"
     />
   </div>
 </template>
 
 <script>
 import AboutText from "../AboutText/AboutText.vue";
+let about = require("@/assets/api/about.json");
 export default {
   name: "TextContainer",
   components: { AboutText },
+  data() {
+    return {
+      aboutDetails: about,
+    };
+  },
 };
 </script>
 
@@ -24,24 +27,16 @@ export default {
   background: #ffffff;
   border: 20px solid #657f56;
   border-radius: 10px;
-  padding: 1rem;
+  padding: 0.1rem 0.6rem;
+  width: 100%;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
   .container {
     position: absolute;
-    width: clamp(30rem, 45vw, 40rem);
-    top: clamp(5rem, 50%, 10rem);
-    left: clamp(1rem, 4.5vw, 10rem);
-  }
-}
+    width: clamp(30rem, 40vw, 50rem);
 
-@media screen and (min-width: 2000px) {
-  .container {
-    position: absolute;
-    width: clamp(30rem, 45vw, 45rem);
-    top: clamp(5rem, 50%, 10rem);
-    left: clamp(1rem, 7.5vw, 10rem);
+    left: clamp(1rem, 2vw, 10rem);
   }
 }
 </style>

@@ -2,14 +2,10 @@
   <div class="AboutSection">
     <SectionContainer>
       <template v-slot:content>
-        <div class="about-desc">
-          <TextContainer> </TextContainer>
-        </div>
+        <TextContainer> </TextContainer>
       </template>
       <template v-slot:media>
-        <div class="image">
-          <AboutImage src="../../assets/temp/PFP.jpg" />
-        </div>
+        <AboutImage :src="src" />
       </template>
     </SectionContainer>
   </div>
@@ -23,11 +19,20 @@ import TextContainer from "../TextContainer/TextContainer.vue";
 export default {
   name: "AboutContainer",
   components: { SectionContainer, AboutImage, TextContainer },
+  data() {
+    return {
+      src: require("@/assets/images/PFP.jpg"),
+    };
+  },
 };
 </script>
 
 <style scoped>
 .AboutSection {
   position: relative;
+  background: linear-gradient(#fff, #d7ecc9);
+  z-index: -3;
+  width: 100%;
+  padding-bottom: 1rem;
 }
 </style>
