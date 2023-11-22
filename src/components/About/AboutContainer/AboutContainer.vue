@@ -31,6 +31,7 @@ export default {
 .AboutSection {
   position: relative;
   background: linear-gradient(#fff, #d7ecc9);
+  background: -moz-linear-gradient(top, #fff, #d7ecc9);
   z-index: -3;
   width: 100%;
   padding-bottom: 1rem;

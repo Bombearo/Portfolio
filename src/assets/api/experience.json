@@ -23,7 +23,21 @@
         "endYear":"Present",
         "title":"Online Forum and Discord helper",
         "description":"Answers computing related questions on online forums and a discord server to help others on the internet understand concepts such as Object-Oriented Programming, frontend and backend development or general computing topics better."
+    },
+    {
+        "startYear":"2023",
+        "endYear":"Present",
+        "title":"Code Cadets Tutor",
+        "description":"Worked in primary schools across Edinburgh to teach students the basics of programming - including Kodable, CodeSpark, Scratch, Python, and Web Development"
+    },
+    {
+        "startYear":"2023",
+        "endYear":"Present",
+        "title":"FunTech Tutor",
+        "description":"Worked in a virtual environment to tutor pupils about basic programming in Python, extending to PyGame and C++"
     }
+
+
    
 
 ]
