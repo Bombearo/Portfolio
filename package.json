@@ -59,5 +59,17 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "��#\u0000 \u0000P\u0000o\u0000r\u0000t\u0000f\u0000o\u0000l\u0000i\u0000o\u0000\r\u0000 \u0000",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bombearo/Portfolio.git"
+  },
+  "author": "Bombearo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bombearo/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Bombearo/Portfolio#readme"
 }

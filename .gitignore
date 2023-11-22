@@ -5,6 +5,7 @@ node_modules
 
 /src/assets/temp
 /src/components/About/AboutImage/PFP.png
+/src/assets/IMG_4685.png
 
 # local env files
 .env.local
