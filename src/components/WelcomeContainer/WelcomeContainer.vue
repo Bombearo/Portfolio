@@ -39,6 +39,7 @@ export default {
 }
 
 .backgroundImage {
+  object-fit: cover;
   opacity: 0.6;
   min-width: 1440px;
 }
